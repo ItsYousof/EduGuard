@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduGaurd - Homework</title>
+    <link rel="stylesheet" href="../css/navigation.css">
+    <script src="../js/navigation.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/hw.css">
+    <script src="../js/homework.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="menu">
+            <li><a href="home"><i class='bx bxs-home'></i> Home</a></li>
+            <li class="dropdown-parent">
+                <a href="#features">Discover <i class='bx bx-chevron-down'></i></a>
+                <div class="dropdown">
+                    <div class="dropdown-right">
+                        <a href="" class="dropdown-item" onclick="window.location.href='/homework'"><i class='bx bx-cloud'></i> Homework Cloud Saving</a>
+                        <a href="#" class="dropdown-item" onclick="window.location.href='/textformat'"><i class='bx bx-text' ></i> Text Formatting</a>
+                        <a href="#" class="dropdown-item" onclick="window.location.href='/todo'"><i class='bx bx-list-check'></i> Todo Lists</a>
+                        <a href="#" class="dropdown-item" onclick="window.location.href='/library'"><i class='bx bx-book'></i> Library</a>
+                    </div>
+                    <div class="dropdown-left" id="others">
+                        <a href="#" onclick="window.location.href='../quiz/math.html'"><i class='bx bx-calculator'></i> Math</a>
+                        <a href="#" onclick="window.location.href='../quiz/english.html'"><i class='bx bx-world'></i> English</a>
+                    </div>
+                </div>
+            </li>
+            <li><a href="about"><i class='bx bxs-info-circle'></i> About</a></li>
+        </ul>
+        <div class="logo">EduGuard</div>
+        <div class="hamburger"><i class='bx bx-menu'></i></div>
+    </nav>
+
+    <section id="homework-cards"></section>
+
+    <section class="add">
+        <i class='bx bx-plus' onclick="showPopup()"></i>
+    </section>
+
+    <div class="popup" id="popup" style="display: none;">
+        <div class="popup-content">
+            <i class='bx bx-x' onclick="hidePopup()"></i>
+            <h1>Add Homework</h1>
+            <form onsubmit="return false;">
+                <label for="title">Title:</label>
+                <input type="text" name="title" id="title">
+                <label for="title">Description:</label>
+                <input type="text" name="title" id="description">
+                <label for="link">Link:</label>
+                <input type="text" name="link" id="link">
+            </form>
+            <button onclick="addHomework()">Add</button>
+        </div>
+    </div>
+</body>
+</html>

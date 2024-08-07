@@ -1,0 +1,662 @@
+[
+    {
+        "id": 1,
+        "question": "How is 'subtle' pronounced?",
+        "answers": [
+            "SUHB-tl",
+            "SUB-tuhl",
+            "SUHB-tuhl",
+            "SUHT-l"
+        ],
+        "correctAnswer": "SUHB-tl"
+    },
+    {
+        "id": 2,
+        "question": "How is 'chaos' pronounced?",
+        "answers": [
+            "KAY-oss",
+            "KAH-oss",
+            "CHAY-oss",
+            "KAY-ohs"
+        ],
+        "correctAnswer": "KAY-ohs"
+    },
+    {
+        "id": 3,
+        "question": "How is 'honor' pronounced?",
+        "answers": [
+            "HON-or",
+            "ON-or",
+            "HON-ur",
+            "ON-ur"
+        ],
+        "correctAnswer": "ON-or"
+    },
+    {
+        "id": 4,
+        "question": "How is 'drought' pronounced?",
+        "answers": [
+            "DROWT",
+            "DROOHT",
+            "DROOHT",
+            "DROWT"
+        ],
+        "correctAnswer": "DROWT"
+    },
+    {
+        "id": 5,
+        "question": "How is 'colonel' pronounced?",
+        "answers": [
+            "KOL-uh-nuhl",
+            "KERN-uhl",
+            "KOL-uh-nuhl",
+            "KERN-uhl"
+        ],
+        "correctAnswer": "KERN-uhl"
+    },
+    {
+        "id": 6,
+        "question": "How is 'etiquette' pronounced?",
+        "answers": [
+            "ET-ik-it",
+            "ET-ih-ket",
+            "ET-ik-it",
+            "ET-ih-ket"
+        ],
+        "correctAnswer": "ET-ih-ket"
+    },
+    {
+        "id": 7,
+        "question": "How is 'quarantine' pronounced?",
+        "answers": [
+            "KWAH-ran-teen",
+            "KWOR-uhn-teen",
+            "KWAH-ran-teen",
+            "KWOR-uhn-teen"
+        ],
+        "correctAnswer": "KWAH-ran-teen"
+    },
+    {
+        "id": 8,
+        "question": "How is 'bologna' pronounced?",
+        "answers": [
+            "BOL-o-nee",
+            "Buh-LOH-nya",
+            "BOL-o-nee",
+            "Buh-LOH-nya"
+        ],
+        "correctAnswer": "Buh-LOH-nya"
+    },
+    {
+        "id": 9,
+        "question": "How is 'anomaly' pronounced?",
+        "answers": [
+            "Uh-NOM-uh-lee",
+            "A-NOM-uh-lee",
+            "Uh-NOM-uh-lee",
+            "A-NOM-uh-lee"
+        ],
+        "correctAnswer": "Uh-NOM-uh-lee"
+    },
+    {
+        "id": 10,
+        "question": "How is 'croissant' pronounced?",
+        "answers": [
+            "CROH-sant",
+            "CREE-sont",
+            "CROH-sont",
+            "CREE-sont"
+        ],
+        "correctAnswer": "CROH-sont"
+    },
+    {
+        "id": 11,
+        "question": "How is 'mischievous' pronounced?",
+        "answers": [
+            "MISS-chee-uh-vuhs",
+            "MISS-chuh-vuhs",
+            "MISS-chee-uh-vuhs",
+            "MISS-chuh-vuhs"
+        ],
+        "correctAnswer": "MISS-chee-uh-vuhs"
+    },
+    {
+        "id": 12,
+        "question": "How is 'peculiar' pronounced?",
+        "answers": [
+            "puh-KYOO-lee-ur",
+            "puh-KEW-lee-ur",
+            "puh-KYOO-lee-ur",
+            "puh-KEW-lee-ur"
+        ],
+        "correctAnswer": "puh-KYOO-lee-ur"
+    },
+    {
+        "id": 13,
+        "question": "How is 'recede' pronounced?",
+        "answers": [
+            "REE-seed",
+            "REH-seed",
+            "REE-seed",
+            "REH-seed"
+        ],
+        "correctAnswer": "REE-seed"
+    },
+    {
+        "id": 14,
+        "question": "How is 'wrestle' pronounced?",
+        "answers": [
+            "RESS-uhl",
+            "REH-suhl",
+            "RESS-uhl",
+            "REH-suhl"
+        ],
+        "correctAnswer": "RESS-uhl"
+    },
+    {
+        "id": 15,
+        "question": "How is 'vanilla' pronounced?",
+        "answers": [
+            "vuh-NIL-uh",
+            "vuh-NEE-luh",
+            "vuh-NIL-uh",
+            "vuh-NEE-luh"
+        ],
+        "correctAnswer": "vuh-NIL-uh"
+    },
+    {
+        "id": 16,
+        "question": "How is 'zephyr' pronounced?",
+        "answers": [
+            "ZEF-ur",
+            "ZEF-er",
+            "ZEF-ur",
+            "ZEF-er"
+        ],
+        "correctAnswer": "ZEF-ur"
+    },
+    {
+        "id": 17,
+        "question": "How is 'saccharine' pronounced?",
+        "answers": [
+            "SACK-uh-ryn",
+            "SAY-ker-ryn",
+            "SACK-uh-ryn",
+            "SAY-ker-ryn"
+        ],
+        "correctAnswer": "SACK-uh-ryn"
+    },
+    {
+        "id": 18,
+        "question": "How is 'boulevard' pronounced?",
+        "answers": [
+            "BOO-luh-vard",
+            "BUL-uh-vard",
+            "BOO-luh-vard",
+            "BUL-uh-vard"
+        ],
+        "correctAnswer": "BOO-luh-vard"
+    },
+    {
+        "id": 19,
+        "question": "How is 'cache' pronounced?",
+        "answers": [
+            "KASH",
+            "KAY-ch",
+            "KASH",
+            "KAY-ch"
+        ],
+        "correctAnswer": "KASH"
+    },
+    {
+        "id": 20,
+        "question": "How is 'genre' pronounced?",
+        "answers": [
+            "ZHAHN-ruh",
+            "GEN-er",
+            "ZHAHN-ruh",
+            "GEN-er"
+        ],
+        "correctAnswer": "ZHAHN-ruh"
+    },
+    {
+        "id": 21,
+        "question": "How is 'gauge' pronounced?",
+        "answers": [
+            "GAYJ",
+            "GAWJ",
+            "GAYJ",
+            "GAWJ"
+        ],
+        "correctAnswer": "GAYJ"
+    },
+    {
+        "id": 22,
+        "question": "How is 'plumber' pronounced?",
+        "answers": [
+            "PLUM-er",
+            "PLUM-ur",
+            "PLUM-er",
+            "PLUM-ur"
+        ],
+        "correctAnswer": "PLUM-er"
+    },
+    {
+        "id": 23,
+        "question": "How is 'quiche' pronounced?",
+        "answers": [
+            "KEESH",
+            "KWEECH",
+            "KEESH",
+            "KWEECH"
+        ],
+        "correctAnswer": "KEESH"
+    },
+    {
+        "id": 24,
+        "question": "How is 'syrup' pronounced?",
+        "answers": [
+            "SIR-uhp",
+            "SIR-up",
+            "SIR-uhp",
+            "SIR-up"
+        ],
+        "correctAnswer": "SIR-uhp"
+    },
+    {
+        "id": 25,
+        "question": "How is 'tomb' pronounced?",
+        "answers": [
+            "TOOM",
+            "TOMB",
+            "TOOM",
+            "TOMB"
+        ],
+        "correctAnswer": "TOOM"
+    },
+    {
+        "id": 26,
+        "question": "How is 'acai' pronounced?",
+        "answers": [
+            "AH-sah-EE",
+            "AH-kai",
+            "AH-sah-EE",
+            "AH-kai"
+        ],
+        "correctAnswer": "AH-sah-EE"
+    },
+    {
+        "id": 27,
+        "question": "How is 'repertoire' pronounced?",
+        "answers": [
+            "REH-per-twahr",
+            "REH-per-tor",
+            "REH-per-twahr",
+            "REH-per-tor"
+        ],
+        "correctAnswer": "REH-per-twahr"
+    },
+    {
+        "id": 28,
+        "question": "How is 'scone' pronounced?",
+        "answers": [
+            "SKON",
+            "SKOAN",
+            "SKON",
+            "SKOAN"
+        ],
+        "correctAnswer": "SKON"
+    },
+    {
+        "id": 29,
+        "question": "How is 'vengeance' pronounced?",
+        "answers": [
+            "VEN-juhns",
+            "VEN-jens",
+            "VEN-juhns",
+            "VEN-jens"
+        ],
+        "correctAnswer": "VEN-juhns"
+    },
+    {
+        "id": 30,
+        "question": "How is 'zucchini' pronounced?",
+        "answers": [
+            "zoo-KEE-nee",
+            "zoo-CHIN-ee",
+            "zoo-KEE-nee",
+            "zoo-CHIN-ee"
+        ],
+        "correctAnswer": "zoo-KEE-nee"
+    },
+    {
+        "id": 31,
+        "question": "How is 'abrasive' pronounced?",
+        "answers": [
+            "uh-BRAY-siv",
+            "AB-ruh-siv",
+            "uh-BRAY-siv",
+            "AB-ruh-siv"
+        ],
+        "correctAnswer": "uh-BRAY-siv"
+    },
+    {
+        "id": 32,
+        "question": "How is 'bouquet' pronounced?",
+        "answers": [
+            "boo-KAY",
+            "BOO-ket",
+            "boo-KAY",
+            "BOO-ket"
+        ],
+        "correctAnswer": "boo-KAY"
+    },
+    {
+        "id": 33,
+        "question": "How is 'coup' pronounced?",
+        "answers": [
+            "KOOP",
+            "KOO",
+            "KOOP",
+            "KOO"
+        ],
+        "correctAnswer": "KOO"
+    },
+    {
+        "id": 34,
+        "question": "How is 'debris' pronounced?",
+        "answers": [
+            "DEE-bree",
+            "DEH-bree",
+            "DEE-bree",
+            "DEH-bree"
+        ],
+        "correctAnswer": "DEH-bree"
+    },
+    {
+        "id": 35,
+        "question": "How is 'effervescent' pronounced?",
+        "answers": [
+            "ef-er-VES-uhnt",
+            "ef-er-VES-nt",
+            "ef-er-VES-uhnt",
+            "ef-er-VES-nt"
+        ],
+        "correctAnswer": "ef-er-VES-uhnt"
+    },
+    {
+        "id": 36,
+        "question": "How is 'faux' pronounced?",
+        "answers": [
+            "FOH",
+            "FAUX",
+            "FOH",
+            "FAUX"
+        ],
+        "correctAnswer": "FOH"
+    },
+    {
+        "id": 37,
+        "question": "How is 'gourmet' pronounced?",
+        "answers": [
+            "GOOR-may",
+            "GUR-may",
+            "GOOR-may",
+            "GUR-may"
+        ],
+        "correctAnswer": "GOOR-may"
+    },
+    {
+        "id": 38,
+        "question": "How is 'hors d'oeuvres' pronounced?",
+        "answers": [
+            "or-DERVS",
+            "HORZ-dervz",
+            "or-DERVS",
+            "HORZ-dervz"
+        ],
+        "correctAnswer": "or-DERVS"
+    },
+    {
+        "id": 39,
+        "question": "How is 'jewelry' pronounced?",
+        "answers": [
+            "JOO-uh-ree",
+            "JEW-uh-ree",
+            "JOO-uh-ree",
+            "JEW-uh-ree"
+        ],
+        "correctAnswer": "JEW-uh-ree"
+    },
+    {
+        "id": 40,
+        "question": "How is 'knack' pronounced?",
+        "answers": [
+            "NAK",
+            "NACK",
+            "NAK",
+            "NACK"
+        ],
+        "correctAnswer": "NAK"
+    },
+    {
+        "id": 41,
+        "question": "How is 'leisure' pronounced?",
+        "answers": [
+            "LEE-zhur",
+            "LEH-zhur",
+            "LEE-zhur",
+            "LEH-zhur"
+        ],
+        "correctAnswer": "LEE-zhur"
+    },
+    {
+        "id": 42,
+        "question": "How is 'mauve' pronounced?",
+        "answers": [
+            "MOHV",
+            "MAUV",
+            "MOHV",
+            "MAUV"
+        ],
+        "correctAnswer": "MOHV"
+    },
+    {
+        "id": 43,
+        "question": "How is 'niche' pronounced?",
+        "answers": [
+            "NEESH",
+            "NITCH",
+            "NEESH",
+            "NITCH"
+        ],
+        "correctAnswer": "NEESH"
+    },
+    {
+        "id": 44,
+        "question": "How is 'ocean' pronounced?",
+        "answers": [
+            "OH-shun",
+            "O-shee-uhn",
+            "OH-shun",
+            "O-shee-uhn"
+        ],
+        "correctAnswer": "OH-shun"
+    },
+    {
+        "id": 45,
+        "question": "How is 'pseudonym' pronounced?",
+        "answers": [
+            "SOO-doh-nim",
+            "SYOO-doh-nim",
+            "SOO-doh-nim",
+            "SYOO-doh-nim"
+        ],
+        "correctAnswer": "SOO-doh-nim"
+    },
+    {
+        "id": 46,
+        "question": "How is 'quiche' pronounced?",
+        "answers": [
+            "KEESH",
+            "KWEECH",
+            "KEESH",
+            "KWEECH"
+        ],
+        "correctAnswer": "KEESH"
+    },
+    {
+        "id": 47,
+        "question": "How is 'rendezvous' pronounced?",
+        "answers": [
+            "RON-day-voo",
+            "RAN-day-voo",
+            "RON-day-voo",
+            "RAN-day-voo"
+        ],
+        "correctAnswer": "RON-day-voo"
+    },
+    {
+        "id": 48,
+        "question": "How is 'saccharine' pronounced?",
+        "answers": [
+            "SACK-uh-ryn",
+            "SAY-ker-ryn",
+            "SACK-uh-ryn",
+            "SAY-ker-ryn"
+        ],
+        "correctAnswer": "SACK-uh-ryn"
+    },
+    {
+        "id": 49,
+        "question": "How is 'tantalize' pronounced?",
+        "answers": [
+            "TAN-tuh-lyz",
+            "TAN-tuh-lize",
+            "TAN-tuh-lyz",
+            "TAN-tuh-lize"
+        ],
+        "correctAnswer": "TAN-tuh-lyz"
+    },
+    {
+        "id": 50,
+        "question": "How is 'ubiquitous' pronounced?",
+        "answers": [
+            "yoo-BIK-wi-tuhs",
+            "yoo-BIK-yoo-tuhs",
+            "yoo-BIK-wi-tuhs",
+            "yoo-BIK-yoo-tuhs"
+        ],
+        "correctAnswer": "yoo-BIK-wi-tuhs"
+    },
+    {
+        "id": 51,
+        "question": "How is 'vortex' pronounced?",
+        "answers": [
+            "VOR-teks",
+            "VOR-teks",
+            "VOR-teks",
+            "VOR-teks"
+        ],
+        "correctAnswer": "VOR-teks"
+    },
+    {
+        "id": 52,
+        "question": "How is 'whimsical' pronounced?",
+        "answers": [
+            "WHIM-zuh-kul",
+            "WHIM-ih-kul",
+            "WHIM-zuh-kul",
+            "WHIM-ih-kul"
+        ],
+        "correctAnswer": "WHIM-zuh-kul"
+    },
+    {
+        "id": 53,
+        "question": "How is 'xylophone' pronounced?",
+        "answers": [
+            "ZYE-luh-fohn",
+            "ZEE-luh-fohn",
+            "ZYE-luh-fohn",
+            "ZEE-luh-fohn"
+        ],
+        "correctAnswer": "ZYE-luh-fohn"
+    },
+    {
+        "id": 54,
+        "question": "How is 'yacht' pronounced?",
+        "answers": [
+            "YOT",
+            "YAKT",
+            "YOT",
+            "YAKT"
+        ],
+        "correctAnswer": "YOT"
+    },
+    {
+        "id": 55,
+        "question": "How is 'zeal' pronounced?",
+        "answers": [
+            "ZEEL",
+            "ZAY-uhl",
+            "ZEEL",
+            "ZAY-uhl"
+        ],
+        "correctAnswer": "ZEEL"
+    },
+    {
+        "id": 56,
+        "question": "How is 'allegory' pronounced?",
+        "answers": [
+            "AL-uh-gor-ee",
+            "AL-uh-gree",
+            "AL-uh-gor-ee",
+            "AL-uh-gree"
+        ],
+        "correctAnswer": "AL-uh-gor-ee"
+    },
+    {
+        "id": 57,
+        "question": "How is 'bizarre' pronounced?",
+        "answers": [
+            "bi-ZAHR",
+            "bi-ZAHR",
+            "bi-ZAHR",
+            "bi-ZAHR"
+        ],
+        "correctAnswer": "bi-ZAHR"
+    },
+    {
+        "id": 58,
+        "question": "How is 'charisma' pronounced?",
+        "answers": [
+            "kuh-RIZ-muh",
+            "KAH-riz-muh",
+            "kuh-RIZ-muh",
+            "KAH-riz-muh"
+        ],
+        "correctAnswer": "kuh-RIZ-muh"
+    },
+    {
+        "id": 59,
+        "question": "How is 'doppelganger' pronounced?",
+        "answers": [
+            "DOP-uhl-gang-er",
+            "DOP-uhl-gang-er",
+            "DOP-uhl-gang-er",
+            "DOP-uhl-gang-er"
+        ],
+        "correctAnswer": "DOP-uhl-gang-er"
+    },
+    {
+        "id": 60,
+        "question": "How is 'epitome' pronounced?",
+        "answers": [
+            "ep-IT-uh-mee",
+            "EP-uh-tome",
+            "ep-IT-uh-mee",
+            "EP-uh-tome"
+        ],
+        "correctAnswer": "ep-IT-uh-mee"
+    }
+]

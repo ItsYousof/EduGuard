@@ -1,0 +1,871 @@
+[
+    {
+        "id": 1,
+        "question": "Paragraph: 'The impact of technology on education has been profound. With the rise of online learning platforms and digital resources, students now have access to a wealth of information at their fingertips. This shift has transformed traditional teaching methods, making education more accessible and flexible for learners of all ages.' What is the main idea of this paragraph?",
+        "answers": [
+            "Technology has changed the way education is delivered.",
+            "Online learning platforms are expensive.",
+            "Traditional teaching methods are outdated.",
+            "Students have limited access to information."
+        ],
+        "correctAnswer": "Technology has changed the way education is delivered."
+    },
+    {
+        "id": 2,
+        "question": "Paragraph: 'The effects of climate change are becoming increasingly evident. Rising global temperatures, melting ice caps, and more frequent extreme weather events are all signs of the warming planet. These changes are having a significant impact on ecosystems and human societies around the world.' What is the main idea of this paragraph?",
+        "answers": [
+            "Climate change is causing significant environmental and societal effects.",
+            "Extreme weather events are rare occurrences.",
+            "Ice caps are unaffected by climate change.",
+            "Global temperatures are stabilizing."
+        ],
+        "correctAnswer": "Climate change is causing significant environmental and societal effects."
+    },
+    {
+        "id": 3,
+        "question": "Paragraph: 'The rise of social media has altered how people communicate. Platforms like Facebook, Twitter, and Instagram have made it easier for individuals to connect with others around the globe. While this has brought people closer together, it has also introduced new challenges such as privacy concerns and online harassment.' What is the main idea of this paragraph?",
+        "answers": [
+            "Social media has changed communication, bringing both benefits and challenges.",
+            "Privacy concerns are the only issue with social media.",
+            "Social media is only used for connecting globally.",
+            "Online harassment is not a major problem."
+        ],
+        "correctAnswer": "Social media has changed communication, bringing both benefits and challenges."
+    },
+    {
+        "id": 4,
+        "question": "Paragraph: 'Healthy eating is crucial for maintaining overall well-being. Incorporating a variety of fruits, vegetables, whole grains, and lean proteins into one's diet can help prevent chronic diseases and improve energy levels. Additionally, staying hydrated and limiting processed foods are important aspects of a balanced diet.' What is the main idea of this paragraph?",
+        "answers": [
+            "A balanced diet is essential for health and well-being.",
+            "Processed foods are beneficial for energy levels.",
+            "Fruits and vegetables are not necessary for a healthy diet.",
+            "Hydration is not important for a balanced diet."
+        ],
+        "correctAnswer": "A balanced diet is essential for health and well-being."
+    },
+    {
+        "id": 5,
+        "question": "Paragraph: 'The development of renewable energy sources is a key factor in reducing our reliance on fossil fuels. Solar, wind, and hydropower are all viable alternatives that can help decrease greenhouse gas emissions and promote environmental sustainability. Investing in these technologies is crucial for a cleaner future.' What is the main idea of this paragraph?",
+        "answers": [
+            "Renewable energy sources are important for reducing fossil fuel use and promoting sustainability.",
+            "Fossil fuels are more reliable than renewable energy sources.",
+            "Greenhouse gas emissions are not a major concern.",
+            "Investing in renewable energy is unnecessary."
+        ],
+        "correctAnswer": "Renewable energy sources are important for reducing fossil fuel use and promoting sustainability."
+    },
+    {
+        "id": 6,
+        "question": "Paragraph: 'Traveling offers numerous benefits beyond just seeing new places. It can broaden one's perspective, enhance cultural understanding, and provide opportunities for personal growth. Experiencing different cultures and environments can lead to a greater appreciation for diversity and an enriched worldview.' What is the main idea of this paragraph?",
+        "answers": [
+            "Traveling provides personal growth and cultural understanding.",
+            "Traveling is only about seeing new places.",
+            "Personal growth is not a benefit of traveling.",
+            "Cultural understanding is less important than seeing new places."
+        ],
+        "correctAnswer": "Traveling provides personal growth and cultural understanding."
+    },
+    {
+        "id": 7,
+        "question": "Paragraph: 'Effective time management is essential for achieving both personal and professional goals. By prioritizing tasks, setting deadlines, and avoiding procrastination, individuals can make better use of their time and reduce stress. Time management skills can lead to increased productivity and a more balanced life.' What is the main idea of this paragraph?",
+        "answers": [
+            "Effective time management improves productivity and reduces stress.",
+            "Procrastination helps in achieving goals.",
+            "Time management is not important for productivity.",
+            "Setting deadlines is not a part of time management."
+        ],
+        "correctAnswer": "Effective time management improves productivity and reduces stress."
+    },
+    {
+        "id": 8,
+        "question": "Paragraph: 'The history of art reveals a rich tapestry of human expression and creativity. From prehistoric cave paintings to contemporary digital installations, art has been a means of communication and reflection. Studying various art forms helps us understand different cultures and historical periods.' What is the main idea of this paragraph?",
+        "answers": [
+            "Art reflects human expression and helps us understand history and cultures.",
+            "Art is only about prehistoric cave paintings.",
+            "Digital installations are not important in art history.",
+            "Art is not a means of communication."
+        ],
+        "correctAnswer": "Art reflects human expression and helps us understand history and cultures."
+    },
+    {
+        "id": 9,
+        "question": "Paragraph: 'In order to achieve effective teamwork, clear communication and mutual respect are vital. Team members must be willing to share ideas, listen to each other, and work collaboratively towards common goals. Addressing conflicts constructively and valuing each member's contributions also play a crucial role in successful teamwork.' What is the main idea of this paragraph?",
+        "answers": [
+            "Clear communication and mutual respect are essential for effective teamwork.",
+            "Conflicts should be avoided in teamwork.",
+            "Teamwork is only about sharing ideas.",
+            "Individual contributions are less important than teamwork."
+        ],
+        "correctAnswer": "Clear communication and mutual respect are essential for effective teamwork."
+    },
+    {
+        "id": 10,
+        "question": "Paragraph: 'The rise of remote work has changed the traditional office environment. Many companies are now offering flexible work arrangements that allow employees to work from home or other locations. This shift has led to increased work-life balance and has also introduced new challenges in maintaining productivity and communication.' What is the main idea of this paragraph?",
+        "answers": [
+            "Remote work has changed office environments and introduced new challenges.",
+            "Working from home is not effective for productivity.",
+            "Office environments remain unchanged.",
+            "Flexible work arrangements are not beneficial."
+        ],
+        "correctAnswer": "Remote work has changed office environments and introduced new challenges."
+    },
+    {
+        "id": 11,
+        "question": "Paragraph: 'Reading regularly can have numerous benefits for mental health. It stimulates the mind, reduces stress, and provides a sense of escape from daily routines. Engaging with different genres and authors can also enhance empathy and broaden one’s understanding of the world.' What is the main idea of this paragraph?",
+        "answers": [
+            "Reading regularly benefits mental health and broadens understanding.",
+            "Reading only provides a sense of escape.",
+            "Mental health benefits are not related to reading.",
+            "Engaging with different genres is not important."
+        ],
+        "correctAnswer": "Reading regularly benefits mental health and broadens understanding."
+    },
+    {
+        "id": 12,
+        "question": "Paragraph: 'Innovation is a driving force behind economic growth and development. By fostering creativity and supporting new ideas, businesses and governments can create new opportunities, enhance productivity, and improve overall quality of life. Innovation also plays a key role in solving complex global challenges.' What is the main idea of this paragraph?",
+        "answers": [
+            "Innovation drives economic growth and addresses global challenges.",
+            "Economic growth is not influenced by innovation.",
+            "Creativity is not important for development.",
+            "Innovation only benefits businesses, not governments."
+        ],
+        "correctAnswer": "Innovation drives economic growth and addresses global challenges."
+    },
+    {
+        "id": 13,
+        "question": "Paragraph: 'Maintaining a healthy work-life balance is essential for overall well-being. It involves managing work responsibilities while also making time for personal activities, hobbies, and family. Achieving this balance can help prevent burnout and promote a more satisfying and productive life.' What is the main idea of this paragraph?",
+        "answers": [
+            "A healthy work-life balance is crucial for well-being and productivity.",
+            "Burnout is not related to work-life balance.",
+            "Personal activities are less important than work responsibilities.",
+            "Managing work responsibilities is the only aspect of work-life balance."
+        ],
+        "correctAnswer": "A healthy work-life balance is crucial for well-being and productivity."
+    },
+    {
+        "id": 14,
+        "question": "Paragraph: 'The exploration of space has led to numerous scientific advancements. From the development of new technologies to a greater understanding of our universe, space exploration has provided valuable insights and inspired innovation. These achievements have far-reaching impacts on various fields, including medicine and engineering.' What is the main idea of this paragraph?",
+        "answers": [
+            "Space exploration has led to scientific advancements and technological innovations.",
+            "Space exploration is only about discovering new planets.",
+            "Technological advancements are not influenced by space exploration.",
+            "Space exploration has limited impact on fields like medicine."
+        ],
+        "correctAnswer": "Space exploration has led to scientific advancements and technological innovations."
+    },
+    {
+        "id": 15,
+        "question": "Paragraph: 'The principles of sustainable development aim to balance economic growth with environmental protection. By implementing practices that reduce resource consumption and minimize environmental impact, societies can achieve long-term growth without depleting natural resources. This approach ensures that future generations can meet their needs as well.' What is the main idea of this paragraph?",
+        "answers": [
+            "Sustainable development balances economic growth with environmental protection.",
+            "Economic growth is not related to environmental protection.",
+            "Natural resources are not a concern for future generations.",
+            "Sustainable practices only focus on reducing resource consumption."
+        ],
+        "correctAnswer": "Sustainable development balances economic growth with environmental protection."
+    },
+    {
+        "id": 16,
+        "question": "Paragraph: 'Nutrition plays a key role in supporting overall health and preventing disease. A well-balanced diet that includes a variety of nutrients helps to strengthen the immune system, improve cognitive function, and maintain healthy body weight. Proper nutrition is essential for both physical and mental well-being.' What is the main idea of this paragraph?",
+        "answers": [
+            "Proper nutrition supports overall health and prevents disease.",
+            "Nutrients are not important for cognitive function.",
+            "Maintaining a healthy body weight is less important than nutrition.",
+            "Nutrition only affects physical health."
+        ],
+        "correctAnswer": "Proper nutrition supports overall health and prevents disease."
+    },
+    {
+        "id": 17,
+        "question": "Paragraph: 'The art of storytelling has been an integral part of human culture for centuries. Through oral traditions, literature, and media, stories have been used to convey values, share experiences, and entertain audiences. Storytelling connects people across different cultures and generations, preserving history and fostering empathy.' What is the main idea of this paragraph?",
+        "answers": [
+            "Storytelling is a vital part of culture that connects people and preserves history.",
+            "Storytelling is only used for entertainment purposes.",
+            "Oral traditions are the only form of storytelling.",
+            "Storytelling does not contribute to cultural values."
+        ],
+        "correctAnswer": "Storytelling is a vital part of culture that connects people and preserves history."
+    },
+    {
+        "id": 18,
+        "question": "Paragraph: 'Education systems around the world vary greatly in their approaches and methods. While some focus on traditional classroom settings, others emphasize hands-on learning and technology integration. Each system has its own strengths and challenges, and the effectiveness of an approach often depends on the needs of the students and the goals of the educational institution.' What is the main idea of this paragraph?",
+        "answers": [
+            "Education systems differ in their methods and effectiveness based on various factors.",
+            "Traditional classroom settings are superior to other methods.",
+            "Technology integration is not important in education.",
+            "The effectiveness of education systems is the same everywhere."
+        ],
+        "correctAnswer": "Education systems differ in their methods and effectiveness based on various factors."
+    },
+    {
+        "id": 19,
+        "question": "Paragraph: 'Public transportation offers numerous benefits to urban areas. It reduces traffic congestion, lowers pollution levels, and provides an affordable travel option for residents. Investing in efficient and accessible public transit systems can lead to more sustainable and livable cities.' What is the main idea of this paragraph?",
+        "answers": [
+            "Public transportation benefits urban areas by reducing congestion and pollution.",
+            "Public transportation is not affordable for residents.",
+            "Investing in transit systems does not improve city livability.",
+            "Traffic congestion is not influenced by public transportation."
+        ],
+        "correctAnswer": "Public transportation benefits urban areas by reducing congestion and pollution."
+    },
+    {
+        "id": 20,
+        "question": "Paragraph: 'The role of creativity in problem-solving cannot be overstated. Creative thinking allows individuals to approach challenges from different angles and develop innovative solutions. Encouraging creativity in various fields, from business to education, can lead to more effective and novel approaches to overcoming obstacles.' What is the main idea of this paragraph?",
+        "answers": [
+            "Creativity enhances problem-solving by fostering innovative solutions.",
+            "Creative thinking is not important for problem-solving.",
+            "Creative solutions are less effective than conventional ones.",
+            "Problem-solving does not benefit from creative approaches."
+        ],
+        "correctAnswer": "Creativity enhances problem-solving by fostering innovative solutions."
+    },
+    {
+        "id": 21,
+        "question": "Paragraph: 'The preservation of cultural heritage is crucial for maintaining a sense of identity and history. Efforts to protect historical sites, traditional practices, and local languages help ensure that future generations can learn from and appreciate their cultural roots. Cultural heritage also contributes to the diversity and richness of global society.' What is the main idea of this paragraph?",
+        "answers": [
+            "Preserving cultural heritage is important for maintaining identity and history.",
+            "Cultural heritage is not relevant to future generations.",
+            "Efforts to protect historical sites are unnecessary.",
+            "Cultural diversity does not impact global society."
+        ],
+        "correctAnswer": "Preserving cultural heritage is important for maintaining identity and history."
+    },
+    {
+        "id": 22,
+        "question": "Paragraph: 'Economic inequality remains a significant issue in many societies. Disparities in income and wealth can lead to unequal access to education, healthcare, and other essential services. Addressing economic inequality involves implementing policies that promote fairness and opportunities for all individuals.' What is the main idea of this paragraph?",
+        "answers": [
+            "Economic inequality affects access to essential services and requires policy changes.",
+            "Economic inequality only impacts income levels.",
+            "Access to education and healthcare is unrelated to economic inequality.",
+            "Policies are not necessary to address economic inequality."
+        ],
+        "correctAnswer": "Economic inequality affects access to essential services and requires policy changes."
+    },
+    {
+        "id": 23,
+        "question": "Paragraph: 'The study of human behavior encompasses various aspects such as cognitive processes, social interactions, and emotional responses. By understanding these elements, researchers can gain insights into how individuals make decisions, form relationships, and cope with challenges. This knowledge is valuable for improving mental health and enhancing social dynamics.' What is the main idea of this paragraph?",
+        "answers": [
+            "Studying human behavior provides insights into decision-making and social interactions.",
+            "Human behavior research is only focused on cognitive processes.",
+            "Understanding behavior does not contribute to mental health improvement.",
+            "Social interactions are unrelated to human behavior studies."
+        ],
+        "correctAnswer": "Studying human behavior provides insights into decision-making and social interactions."
+    },
+    {
+        "id": 24,
+        "question": "Paragraph: 'Urban gardening has gained popularity as a way to promote sustainability and improve local food security. By growing fruits, vegetables, and herbs in city environments, individuals can reduce their reliance on commercial produce and enjoy fresh, locally-sourced food. Urban gardens also provide green spaces that enhance the quality of life in densely populated areas.' What is the main idea of this paragraph?",
+        "answers": [
+            "Urban gardening supports sustainability and improves local food security.",
+            "Growing food in cities is not beneficial.",
+            "Commercial produce is better than locally-sourced food.",
+            "Green spaces are not important in urban environments."
+        ],
+        "correctAnswer": "Urban gardening supports sustainability and improves local food security."
+    },
+    {
+        "id": 25,
+        "question": "Paragraph: 'The advent of digital media has transformed the entertainment industry. Streaming services, social media platforms, and online gaming have changed how content is consumed and created. These innovations offer more choices and accessibility, but they also raise concerns about privacy and the impact on traditional media.' What is the main idea of this paragraph?",
+        "answers": [
+            "Digital media has revolutionized entertainment, offering more choices and raising privacy concerns.",
+            "Traditional media is unaffected by digital media innovations.",
+            "Streaming services are not popular.",
+            "Privacy concerns are not related to digital media."
+        ],
+        "correctAnswer": "Digital media has revolutionized entertainment, offering more choices and raising privacy concerns."
+    },
+    {
+        "id": 26,
+        "question": "Paragraph: 'The importance of early childhood education cannot be overstated. Research has shown that quality early education can have a profound impact on a child's cognitive and social development. Investing in early learning programs helps to build a strong foundation for future academic success and personal growth.' What is the main idea of this paragraph?",
+        "answers": [
+            "Early childhood education is crucial for cognitive and social development.",
+            "Early education has minimal impact on future success.",
+            "Investing in early learning programs is not important.",
+            "Academic success is unrelated to early education."
+        ],
+        "correctAnswer": "Early childhood education is crucial for cognitive and social development."
+    },
+    {
+        "id": 27,
+        "question": "Paragraph: 'The principles of effective leadership include the ability to inspire, communicate clearly, and make informed decisions. A strong leader also fosters a positive and inclusive work environment, encourages teamwork, and supports the professional development of team members. Effective leadership is essential for achieving organizational goals and driving success.' What is the main idea of this paragraph?",
+        "answers": [
+            "Effective leadership involves inspiring, communicating, and supporting team members.",
+            "Leadership only requires making decisions.",
+            "Creating a positive work environment is not a leadership principle.",
+            "Teamwork is not important for leadership."
+        ],
+        "correctAnswer": "Effective leadership involves inspiring, communicating, and supporting team members."
+    },
+    {
+        "id": 28,
+        "question": "Paragraph: 'The rise of digital marketing has changed the landscape of advertising. With the ability to target specific audiences through online platforms, businesses can create personalized campaigns and measure their effectiveness in real-time. While digital marketing offers many opportunities, it also presents challenges such as data privacy concerns and increased competition.' What is the main idea of this paragraph?",
+        "answers": [
+            "Digital marketing has transformed advertising with personalized campaigns and new challenges.",
+            "Advertising has not been affected by digital marketing.",
+            "Data privacy concerns are not a challenge in digital marketing.",
+            "Increased competition is not related to digital marketing."
+        ],
+        "correctAnswer": "Digital marketing has transformed advertising with personalized campaigns and new challenges."
+    },
+    {
+        "id": 29,
+        "question": "Paragraph: 'The role of nutrition in athletic performance is significant. Proper nutrition helps athletes to build strength, maintain energy levels, and recover from training. A balanced diet that includes carbohydrates, proteins, and fats, as well as adequate hydration, is essential for optimal performance and injury prevention.' What is the main idea of this paragraph?",
+        "answers": [
+            "Nutrition is crucial for athletic performance and recovery.",
+            "Athletic performance is unaffected by nutrition.",
+            "Hydration is not important for athletes.",
+            "A balanced diet is not necessary for performance."
+        ],
+        "correctAnswer": "Nutrition is crucial for athletic performance and recovery."
+    },
+    {
+        "id": 30,
+        "question": "Paragraph: 'The evolution of technology has brought about significant changes in various sectors, including healthcare, education, and entertainment. Innovations such as telemedicine, online learning platforms, and streaming services have improved accessibility and efficiency. However, these advancements also come with challenges such as digital divide and cybersecurity risks.' What is the main idea of this paragraph?",
+        "answers": [
+            "Technological evolution has transformed multiple sectors with benefits and challenges.",
+            "Healthcare and education are unaffected by technological changes.",
+            "Streaming services do not impact efficiency.",
+            "Cybersecurity risks are not a concern with technological advancements."
+        ],
+        "correctAnswer": "Technological evolution has transformed multiple sectors with benefits and challenges."
+    },
+    {
+        "id": 31,
+        "question": "Paragraph: 'Climate change poses a significant threat to ecosystems and human societies. Rising global temperatures lead to melting ice caps, rising sea levels, and more frequent extreme weather events. Addressing climate change requires global cooperation and the implementation of sustainable practices to mitigate its impacts.' What is the main idea of this paragraph?",
+        "answers": [
+            "Climate change threatens ecosystems and human societies, requiring global cooperation.",
+            "Climate change does not affect extreme weather events.",
+            "Melting ice caps are not related to climate change.",
+            "Global temperatures are unaffected by climate change."
+        ],
+        "correctAnswer": "Climate change threatens ecosystems and human societies, requiring global cooperation."
+    },
+    {
+        "id": 32,
+        "question": "Paragraph: 'Renewable energy sources, such as solar and wind power, offer a sustainable alternative to fossil fuels. By reducing reliance on non-renewable resources, these energy sources help decrease greenhouse gas emissions and promote environmental conservation. Investing in renewable energy is crucial for a sustainable future.' What is the main idea of this paragraph?",
+        "answers": [
+            "Renewable energy sources provide a sustainable alternative to fossil fuels.",
+            "Fossil fuels are preferable to renewable energy sources.",
+            "Renewable energy has no impact on greenhouse gas emissions.",
+            "Environmental conservation is not related to renewable energy."
+        ],
+        "correctAnswer": "Renewable energy sources provide a sustainable alternative to fossil fuels."
+    },
+    {
+        "id": 33,
+        "question": "Paragraph: 'Social media platforms have revolutionized communication by allowing people to connect instantly across the globe. They provide a space for sharing ideas, experiences, and information. However, they also raise concerns about privacy, misinformation, and the impact on mental health.' What is the main idea of this paragraph?",
+        "answers": [
+            "Social media platforms have transformed communication but raise privacy and mental health concerns.",
+            "Social media is not influential in communication.",
+            "Privacy and misinformation are unrelated to social media.",
+            "Connecting globally is not a benefit of social media."
+        ],
+        "correctAnswer": "Social media platforms have transformed communication but raise privacy and mental health concerns."
+    },
+    {
+        "id": 34,
+        "question": "Paragraph: 'The benefits of exercise extend beyond physical health. Regular physical activity can improve mental health, boost mood, and enhance cognitive function. Incorporating exercise into daily routines contributes to overall well-being and quality of life.' What is the main idea of this paragraph?",
+        "answers": [
+            "Exercise benefits physical and mental health, enhancing overall well-being.",
+            "Exercise only affects physical health.",
+            "Mental health is unrelated to physical activity.",
+            "Improving quality of life is not a benefit of exercise."
+        ],
+        "correctAnswer": "Exercise benefits physical and mental health, enhancing overall well-being."
+    },
+    {
+        "id": 35,
+        "question": "Paragraph: 'The advancement of artificial intelligence (AI) has the potential to revolutionize various industries. AI technologies can improve efficiency, automate tasks, and provide valuable insights. However, ethical considerations and the impact on employment must be addressed as AI continues to evolve.' What is the main idea of this paragraph?",
+        "answers": [
+            "AI advancements can revolutionize industries but raise ethical and employment concerns.",
+            "AI has no impact on efficiency or automation.",
+            "Ethical considerations are irrelevant to AI development.",
+            "Employment is not affected by AI advancements."
+        ],
+        "correctAnswer": "AI advancements can revolutionize industries but raise ethical and employment concerns."
+    },
+    {
+        "id": 36,
+        "question": "Paragraph: 'Cultural diversity enriches societies by bringing different perspectives, traditions, and experiences. Embracing diversity fosters mutual understanding, innovation, and social harmony. It is essential for creating inclusive communities where everyone feels valued and respected.' What is the main idea of this paragraph?",
+        "answers": [
+            "Cultural diversity enriches societies and promotes understanding and inclusion.",
+            "Cultural diversity does not contribute to social harmony.",
+            "Different perspectives are not valuable in diverse societies.",
+            "Innovation is unrelated to cultural diversity."
+        ],
+        "correctAnswer": "Cultural diversity enriches societies and promotes understanding and inclusion."
+    },
+    {
+        "id": 37,
+        "question": "Paragraph: 'Digital literacy is becoming increasingly important in the modern world. Being able to navigate technology, evaluate online information, and protect personal data are essential skills. Digital literacy empowers individuals to make informed decisions and engage effectively in the digital age.' What is the main idea of this paragraph?",
+        "answers": [
+            "Digital literacy is crucial for navigating technology and protecting personal data.",
+            "Digital literacy has no impact on informed decision-making.",
+            "Navigating technology is not a key component of digital literacy.",
+            "Protecting personal data is irrelevant to digital literacy."
+        ],
+        "correctAnswer": "Digital literacy is crucial for navigating technology and protecting personal data."
+    },
+    {
+        "id": 38,
+        "question": "Paragraph: 'Healthy eating habits are fundamental to maintaining overall health and well-being. A balanced diet that includes a variety of nutrients supports bodily functions, prevents chronic diseases, and promotes longevity. Adopting healthy eating practices contributes to a better quality of life.' What is the main idea of this paragraph?",
+        "answers": [
+            "Healthy eating habits are essential for overall health and well-being.",
+            "A balanced diet is not important for preventing diseases.",
+            "Nutrients have no role in bodily functions.",
+            "Longevity is unrelated to healthy eating practices."
+        ],
+        "correctAnswer": "Healthy eating habits are essential for overall health and well-being."
+    },
+    {
+        "id": 39,
+        "question": "Paragraph: 'The rise of remote work has changed the traditional office environment. Many employees now work from home or other locations, utilizing digital tools to stay connected. While remote work offers flexibility and convenience, it also presents challenges such as maintaining work-life balance and managing productivity.' What is the main idea of this paragraph?",
+        "answers": [
+            "Remote work changes office environments and presents challenges in work-life balance.",
+            "Remote work is not influenced by digital tools.",
+            "Work-life balance is irrelevant to remote work.",
+            "Remote work does not offer flexibility."
+        ],
+        "correctAnswer": "Remote work changes office environments and presents challenges in work-life balance."
+    },
+    {
+        "id": 40,
+        "question": "Paragraph: 'Sustainable agriculture practices aim to protect the environment while producing sufficient food. Techniques such as crop rotation, organic farming, and water conservation help reduce environmental impact and promote long-term agricultural productivity. These practices are essential for ensuring food security and environmental health.' What is the main idea of this paragraph?",
+        "answers": [
+            "Sustainable agriculture practices protect the environment and ensure food security.",
+            "Environmental impact is not a concern in agriculture.",
+            "Organic farming does not contribute to agricultural productivity.",
+            "Long-term agricultural productivity is unrelated to sustainable practices."
+        ],
+        "correctAnswer": "Sustainable agriculture practices protect the environment and ensure food security."
+    },
+    {
+        "id": 41,
+        "question": "Paragraph: 'Effective communication is vital in both personal and professional settings. It involves not only conveying information clearly but also listening actively and understanding others' perspectives. Good communication skills foster stronger relationships and improve collaboration.' What is the main idea of this paragraph?",
+        "answers": [
+            "Effective communication involves clear conveyance and active listening.",
+            "Communication skills are only important in professional settings.",
+            "Listening actively is not a part of effective communication.",
+            "Strong relationships are not influenced by communication skills."
+        ],
+        "correctAnswer": "Effective communication involves clear conveyance and active listening."
+    },
+    {
+        "id": 42,
+        "question": "Paragraph: 'The development of public health initiatives is crucial for improving community health. Programs that focus on disease prevention, health education, and access to medical care contribute to overall well-being and reduce the burden of illness. Effective public health strategies can lead to healthier populations and lower healthcare costs.' What is the main idea of this paragraph?",
+        "answers": [
+            "Public health initiatives improve community health and reduce illness burden.",
+            "Disease prevention is not a focus of public health programs.",
+            "Access to medical care is unrelated to public health.",
+            "Healthcare costs are not affected by public health strategies."
+        ],
+        "correctAnswer": "Public health initiatives improve community health and reduce illness burden."
+    },
+    {
+        "id": 43,
+        "question": "Paragraph: 'The impact of technology on education has been profound. Digital tools and online resources have transformed teaching methods, making learning more interactive and accessible. Technology also facilitates personalized education and supports diverse learning styles. However, it is important to address issues such as digital divide and screen time management.' What is the main idea of this paragraph?",
+        "answers": [
+            "Technology has transformed education by making it more interactive and accessible.",
+            "Teaching methods are unaffected by technology.",
+            "Personalized education is not influenced by digital tools.",
+            "Screen time management is not a concern with technology in education."
+        ],
+        "correctAnswer": "Technology has transformed education by making it more interactive and accessible."
+    },
+    {
+        "id": 44,
+        "question": "Paragraph: 'The importance of mental health awareness cannot be overstated. Recognizing the signs of mental health issues and seeking help are crucial steps in addressing mental well-being. Raising awareness reduces stigma, encourages support, and promotes access to mental health resources.' What is the main idea of this paragraph?",
+        "answers": [
+            "Mental health awareness is important for addressing well-being and reducing stigma.",
+            "Mental health issues do not require recognition or help.",
+            "Support and resources are unrelated to mental health awareness.",
+            "Stigma is not a concern in mental health awareness."
+        ],
+        "correctAnswer": "Mental health awareness is important for addressing well-being and reducing stigma."
+    },
+    {
+        "id": 45,
+        "question": "Paragraph: 'Economic globalization has interconnected markets and economies worldwide. This integration allows for increased trade, investment, and cultural exchange. However, it also presents challenges such as economic inequality and the impact on local industries.' What is the main idea of this paragraph?",
+        "answers": [
+            "Economic globalization connects markets and economies but presents challenges.",
+            "Local industries are not affected by economic globalization.",
+            "Economic inequality is unrelated to globalization.",
+            "Trade and investment are not benefits of globalization."
+        ],
+        "correctAnswer": "Economic globalization connects markets and economies but presents challenges."
+    },
+    {
+        "id": 46,
+        "question": "Paragraph: 'The rise of e-commerce has significantly changed the retail landscape. Online shopping offers convenience and a wide range of products, often at competitive prices. However, it also poses challenges such as ensuring cybersecurity and managing returns.' What is the main idea of this paragraph?",
+        "answers": [
+            "E-commerce has changed retail by offering convenience and presenting challenges.",
+            "Online shopping does not impact convenience or product range.",
+            "Cybersecurity is not a concern with e-commerce.",
+            "Managing returns is unrelated to online shopping."
+        ],
+        "correctAnswer": "E-commerce has changed retail by offering convenience and presenting challenges."
+    },
+    {
+        "id": 47,
+        "question": "Paragraph: 'The role of innovation in business is critical for staying competitive. Companies that embrace new technologies, processes, and ideas can achieve growth and adapt to changing markets. Innovation drives progress and helps businesses meet evolving customer needs.' What is the main idea of this paragraph?",
+        "answers": [
+            "Innovation is crucial for business growth and adapting to changing markets.",
+            "Business competition is not influenced by innovation.",
+            "Customer needs do not affect business innovation.",
+            "Growth is unrelated to new technologies in business."
+        ],
+        "correctAnswer": "Innovation is crucial for business growth and adapting to changing markets."
+    },
+    {
+        "id": 48,
+        "question": "Paragraph: 'Traveling provides opportunities to experience different cultures and environments. It broadens one's perspective, fosters personal growth, and creates lasting memories. While travel can be enriching, it also involves planning and adapting to new situations.' What is the main idea of this paragraph?",
+        "answers": [
+            "Traveling enriches experiences and fosters personal growth while requiring planning.",
+            "Travel does not affect personal growth or perspectives.",
+            "Planning is not necessary for enriching travel experiences.",
+            "Adapting to new situations is unrelated to travel."
+        ],
+        "correctAnswer": "Traveling enriches experiences and fosters personal growth while requiring planning."
+    },
+    {
+        "id": 49,
+        "question": "Paragraph: 'The influence of social networks on society is substantial. Social networks facilitate communication, information sharing, and community building. They also impact various aspects of life, including social interactions and personal identity. However, concerns about privacy and the quality of information persist.' What is the main idea of this paragraph?",
+        "answers": [
+            "Social networks significantly impact communication, information sharing, and community building.",
+            "Privacy concerns are not relevant to social networks.",
+            "Social interactions are unaffected by social networks.",
+            "Personal identity is unrelated to social networks."
+        ],
+        "correctAnswer": "Social networks significantly impact communication, information sharing, and community building."
+    },
+    {
+        "id": 50,
+        "question": "Paragraph: 'The development of renewable energy technologies is essential for reducing dependence on fossil fuels. Innovations in solar, wind, and hydro energy contribute to environmental sustainability and help combat climate change. Adopting these technologies is critical for a greener future.' What is the main idea of this paragraph?",
+        "answers": [
+            "Renewable energy technologies are vital for reducing fossil fuel dependence and promoting sustainability.",
+            "Fossil fuels are preferable to renewable energy technologies.",
+            "Environmental sustainability is unrelated to renewable energy.",
+            "Combating climate change does not involve adopting renewable technologies."
+        ],
+        "correctAnswer": "Renewable energy technologies are vital for reducing fossil fuel dependence and promoting sustainability."
+    },
+    {
+        "id": 51,
+        "question": "Paragraph: 'The significance of early childhood education cannot be overstated. Early learning experiences shape a child's development, influencing cognitive, social, and emotional growth. Quality early education lays a foundation for future academic success and lifelong learning.' What is the main idea of this paragraph?",
+        "answers": [
+            "Early childhood education is crucial for shaping a child's development and future success.",
+            "Cognitive growth is not influenced by early learning experiences.",
+            "Academic success is unrelated to early education.",
+            "Emotional growth does not benefit from early childhood education."
+        ],
+        "correctAnswer": "Early childhood education is crucial for shaping a child's development and future success."
+    },
+    {
+        "id": 52,
+        "question": "Paragraph: 'The impact of urbanization on the environment includes changes in land use, increased pollution, and loss of green spaces. While urbanization can drive economic growth and development, it also requires careful planning to mitigate adverse environmental effects and ensure sustainable growth.' What is the main idea of this paragraph?",
+        "answers": [
+            "Urbanization affects the environment by changing land use and increasing pollution, requiring careful planning.",
+            "Economic growth is not related to urbanization.",
+            "Green space loss is irrelevant to urban development.",
+            "Mitigating environmental effects is not necessary with urbanization."
+        ],
+        "correctAnswer": "Urbanization affects the environment by changing land use and increasing pollution, requiring careful planning."
+    },
+    {
+        "id": 53,
+        "question": "Paragraph: 'The benefits of adopting a plant-based diet include improved health, reduced environmental impact, and ethical considerations regarding animal welfare. A diet rich in fruits, vegetables, and legumes can lower the risk of chronic diseases and support sustainability.' What is the main idea of this paragraph?",
+        "answers": [
+            "Adopting a plant-based diet offers health, environmental, and ethical benefits.",
+            "Plant-based diets do not affect health or environmental impact.",
+            "Ethical considerations are unrelated to diet choices.",
+            "Chronic diseases are not influenced by a plant-based diet."
+        ],
+        "correctAnswer": "Adopting a plant-based diet offers health, environmental, and ethical benefits."
+    },
+    {
+        "id": 54,
+        "question": "Paragraph: 'The significance of financial literacy extends beyond managing personal finances. Understanding concepts such as budgeting, saving, and investing is crucial for achieving financial stability and making informed decisions. Financial literacy empowers individuals to plan for the future and handle economic challenges effectively.' What is the main idea of this paragraph?",
+        "answers": [
+            "Financial literacy is essential for managing finances and achieving stability.",
+            "Personal finance management is unrelated to financial literacy.",
+            "Economic challenges are not addressed by financial literacy.",
+            "Planning for the future does not involve understanding financial concepts."
+        ],
+        "correctAnswer": "Financial literacy is essential for managing finances and achieving stability."
+    },
+    {
+        "id": 55,
+        "question": "Paragraph: 'The role of public transportation in urban areas includes reducing traffic congestion, lowering emissions, and providing accessible mobility options. Efficient public transportation systems contribute to the quality of life and support sustainable urban development.' What is the main idea of this paragraph?",
+        "answers": [
+            "Public transportation reduces congestion, emissions, and supports urban development.",
+            "Traffic congestion is unaffected by public transportation.",
+            "Public mobility options are not related to urban quality of life.",
+            "Sustainable urban development is unrelated to public transportation."
+        ],
+        "correctAnswer": "Public transportation reduces congestion, emissions, and supports urban development."
+    },
+    {
+        "id": 56,
+        "question": "Paragraph: 'The influence of cultural heritage on identity is profound. Cultural traditions, languages, and values shape individuals' sense of self and community. Preserving cultural heritage fosters a deeper understanding of one's roots and contributes to a sense of belonging.' What is the main idea of this paragraph?",
+        "answers": [
+            "Cultural heritage significantly influences identity and a sense of belonging.",
+            "Identity is not shaped by cultural traditions or values.",
+            "Preserving cultural heritage does not impact understanding one's roots.",
+            "Community sense is unrelated to cultural heritage."
+        ],
+        "correctAnswer": "Cultural heritage significantly influences identity and a sense of belonging."
+    },
+    {
+        "id": 57,
+        "question": "Paragraph: 'The impact of global warming on polar ice caps includes accelerated melting and rising sea levels. These changes threaten coastal communities and ecosystems. Addressing global warming requires international cooperation and efforts to reduce greenhouse gas emissions.' What is the main idea of this paragraph?",
+        "answers": [
+            "Global warming affects polar ice caps and sea levels, requiring international cooperation.",
+            "Coastal communities are not threatened by global warming.",
+            "Greenhouse gas emissions are unrelated to global warming.",
+            "Polar ice caps are not influenced by global warming."
+        ],
+        "correctAnswer": "Global warming affects polar ice caps and sea levels, requiring international cooperation."
+    },
+    {
+        "id": 58,
+        "question": "Paragraph: 'The rise of online education has expanded access to learning opportunities. Students can now access a variety of courses and resources from anywhere in the world. While online education offers flexibility, it also presents challenges such as ensuring engagement and managing coursework.' What is the main idea of this paragraph?",
+        "answers": [
+            "Online education expands access to learning but presents challenges.",
+            "Flexibility is not a benefit of online education.",
+            "Engagement is unrelated to online learning opportunities.",
+            "Coursework management is not a challenge in online education."
+        ],
+        "correctAnswer": "Online education expands access to learning but presents challenges."
+    },
+    {
+        "id": 59,
+        "question": "Paragraph: 'The importance of clean water access cannot be overstated. Clean water is essential for health, sanitation, and overall quality of life. Efforts to provide clean water must address both availability and infrastructure to ensure equitable access for all communities.' What is the main idea of this paragraph?",
+        "answers": [
+            "Clean water access is crucial for health and quality of life.",
+            "Sanitation does not depend on clean water access.",
+            "Infrastructure is irrelevant to clean water availability.",
+            "Equitable access is not a goal for clean water efforts."
+        ],
+        "correctAnswer": "Clean water access is crucial for health and quality of life."
+    },
+    {
+        "id": 60,
+        "question": "Paragraph: 'The role of arts in education extends beyond creative expression. Arts education enhances cognitive abilities, fosters emotional development, and promotes cultural understanding. Integrating arts into curricula supports well-rounded education and prepares students for diverse futures.' What is the main idea of this paragraph?",
+        "answers": [
+            "Arts education enhances cognitive and emotional development and supports well-rounded education.",
+            "Creative expression is the only benefit of arts in education.",
+            "Cultural understanding is unrelated to arts education.",
+            "Well-rounded education does not involve arts integration."
+        ],
+        "correctAnswer": "Arts education enhances cognitive and emotional development and supports well-rounded education."
+    },
+    {
+        "id": 61,
+        "question": "Paragraph: 'The benefits of regular reading include improved focus, expanded vocabulary, and increased knowledge. Reading stimulates the mind and can be a source of relaxation and enjoyment. Developing a reading habit contributes to lifelong learning and cognitive growth.' What is the main idea of this paragraph?",
+        "answers": [
+            "Regular reading improves focus, vocabulary, and cognitive growth.",
+            "Reading has no impact on vocabulary or knowledge expansion.",
+            "Relaxation is unrelated to regular reading habits.",
+            "Lifelong learning does not benefit from reading."
+        ],
+        "correctAnswer": "Regular reading improves focus, vocabulary, and cognitive growth."
+    },
+    {
+        "id": 62,
+        "question": "Paragraph: 'The impact of technological advancements on healthcare includes improved diagnostic tools, treatment options, and patient care. Technology enables more precise medical interventions and enhances the efficiency of healthcare services. However, it also raises concerns about data privacy and access to care.' What is the main idea of this paragraph?",
+        "answers": [
+            "Technological advancements improve healthcare but raise privacy and access concerns.",
+            "Data privacy is not a concern with technological advancements in healthcare.",
+            "Medical interventions are unaffected by technological advancements.",
+            "Healthcare efficiency does not benefit from technology."
+        ],
+        "correctAnswer": "Technological advancements improve healthcare but raise privacy and access concerns."
+    },
+    {
+        "id": 63,
+        "question": "Paragraph: 'The significance of environmental conservation efforts includes protecting natural habitats, preserving biodiversity, and combating climate change. Conservation initiatives aim to maintain ecological balance and ensure the sustainability of natural resources for future generations.' What is the main idea of this paragraph?",
+        "answers": [
+            "Environmental conservation is vital for protecting habitats and ensuring resource sustainability.",
+            "Biodiversity is unrelated to environmental conservation efforts.",
+            "Maintaining ecological balance is not a goal of conservation initiatives.",
+            "Climate change does not influence conservation efforts."
+        ],
+        "correctAnswer": "Environmental conservation is vital for protecting habitats and ensuring resource sustainability."
+    },
+    {
+        "id": 64,
+        "question": "Paragraph: 'The role of innovation in healthcare includes the development of new treatments, diagnostic tools, and technologies. Innovation drives improvements in patient care and enhances the effectiveness of medical interventions. Staying at the forefront of innovation is crucial for advancing healthcare practices.' What is the main idea of this paragraph?",
+        "answers": [
+            "Innovation in healthcare leads to new treatments and improved patient care.",
+            "Medical interventions are unaffected by innovation.",
+            "Healthcare practices do not benefit from new technologies.",
+            "Diagnostic tools are unrelated to healthcare innovation."
+        ],
+        "correctAnswer": "Innovation in healthcare leads to new treatments and improved patient care."
+    },
+    {
+        "id": 65,
+        "question": "Paragraph: 'The impact of global trade on local economies includes increased market access, economic growth, and competition. While global trade can stimulate local industries, it also presents challenges such as market volatility and the potential for economic inequality. Managing these challenges is essential for maximizing the benefits of global trade.' What is the main idea of this paragraph?",
+        "answers": [
+            "Global trade impacts local economies by increasing market access and presenting challenges.",
+            "Economic growth is not a benefit of global trade.",
+            "Market volatility is unrelated to global trade.",
+            "Local industries do not benefit from increased market access."
+        ],
+        "correctAnswer": "Global trade impacts local economies by increasing market access and presenting challenges."
+    },
+    {
+        "id": 66,
+        "question": "Paragraph: 'The benefits of physical exercise include improved cardiovascular health, enhanced mood, and increased energy levels. Regular physical activity supports overall well-being and can help prevent chronic diseases. Incorporating exercise into daily routines contributes to a healthier lifestyle.' What is the main idea of this paragraph?",
+        "answers": [
+            "Physical exercise improves health and supports a healthier lifestyle.",
+            "Cardiovascular health is unaffected by physical exercise.",
+            "Mood enhancement is unrelated to physical activity.",
+            "Preventing chronic diseases does not involve exercise."
+        ],
+        "correctAnswer": "Physical exercise improves health and supports a healthier lifestyle."
+    },
+    {
+        "id": 67,
+        "question": "Paragraph: 'The influence of digital marketing on consumer behavior includes increased engagement through targeted ads and personalized content. Digital marketing strategies leverage data to reach specific audiences and drive purchasing decisions. However, it also raises concerns about privacy and data security.' What is the main idea of this paragraph?",
+        "answers": [
+            "Digital marketing influences consumer behavior through targeted ads but raises privacy concerns.",
+            "Consumer engagement is unaffected by digital marketing strategies.",
+            "Data security is not a concern in digital marketing.",
+            "Targeted ads do not impact purchasing decisions."
+        ],
+        "correctAnswer": "Digital marketing influences consumer behavior through targeted ads but raises privacy concerns."
+    },
+    {
+        "id": 68,
+        "question": "Paragraph: 'The importance of maintaining work-life balance includes reducing stress, improving job satisfaction, and enhancing personal well-being. Balancing professional and personal responsibilities contributes to overall happiness and productivity. Effective time management and setting boundaries are key to achieving work-life balance.' What is the main idea of this paragraph?",
+        "answers": [
+            "Maintaining work-life balance improves job satisfaction and personal well-being.",
+            "Stress reduction is not a benefit of work-life balance.",
+            "Personal happiness is unrelated to professional responsibilities.",
+            "Time management does not contribute to work-life balance."
+        ],
+        "correctAnswer": "Maintaining work-life balance improves job satisfaction and personal well-being."
+    },
+    {
+        "id": 69,
+        "question": "Paragraph: 'The role of technology in modern education includes enhancing learning experiences through interactive tools and online resources. Technology supports personalized learning and facilitates access to information. Despite its benefits, it is important to address challenges such as digital divide and screen time.' What is the main idea of this paragraph?",
+        "answers": [
+            "Technology enhances education by providing interactive tools and supporting personalized learning.",
+            "Screen time management is unrelated to technology in education.",
+            "Personalized learning does not benefit from technology.",
+            "The digital divide has no impact on modern education."
+        ],
+        "correctAnswer": "Technology enhances education by providing interactive tools and supporting personalized learning."
+    },
+    {
+        "id": 70,
+        "question": "Paragraph: 'The impact of renewable energy on reducing greenhouse gas emissions includes transitioning to cleaner energy sources such as wind and solar. Renewable energy helps mitigate climate change and promotes environmental sustainability. Adopting renewable energy technologies is crucial for a sustainable future.' What is the main idea of this paragraph?",
+        "answers": [
+            "Renewable energy helps reduce greenhouse gas emissions and promotes sustainability.",
+            "Greenhouse gas emissions are unaffected by renewable energy.",
+            "Environmental sustainability is not related to renewable energy.",
+            "Cleaner energy sources do not contribute to mitigating climate change."
+        ],
+        "correctAnswer": "Renewable energy helps reduce greenhouse gas emissions and promotes sustainability."
+    },
+    {
+        "id": 71,
+        "question": "Paragraph: 'The role of sports in education includes promoting physical fitness, teamwork, and discipline. Participation in sports enhances students' overall development and contributes to a balanced education. Sports also provide opportunities for social interaction and personal growth.' What is the main idea of this paragraph?",
+        "answers": [
+            "Sports in education promote physical fitness and contribute to overall development.",
+            "Discipline is unrelated to participation in sports.",
+            "Social interaction is not a benefit of sports in education.",
+            "Personal growth does not result from sports participation."
+        ],
+        "correctAnswer": "Sports in education promote physical fitness and contribute to overall development."
+    },
+    {
+        "id": 73,
+        "question": "Paragraph: 'The impact of climate change on agriculture includes altered growing seasons, reduced crop yields, and increased risk of pests and diseases. Farmers must adapt to these changes to ensure food security and sustain agricultural productivity. Addressing climate change is essential for maintaining a stable food supply.' What is the main idea of this paragraph?",
+        "answers": [
+            "Climate change impacts agriculture by affecting growing seasons and crop yields.",
+            "Food security is not influenced by climate change.",
+            "Pests and diseases are unrelated to climate change.",
+            "Agricultural productivity does not need to adapt to climate changes."
+        ],
+        "correctAnswer": "Climate change impacts agriculture by affecting growing seasons and crop yields."
+    },
+    {
+        "id": 74,
+        "question": "Paragraph: 'The importance of cybersecurity in protecting personal information includes safeguarding against data breaches and cyber-attacks. Effective cybersecurity measures are essential for maintaining privacy and trust in digital interactions. Addressing cybersecurity challenges is crucial for ensuring safe online experiences.' What is the main idea of this paragraph?",
+        "answers": [
+            "Cybersecurity is essential for protecting personal information and ensuring safe online experiences.",
+            "Data breaches are unrelated to cybersecurity.",
+            "Privacy and trust are not impacted by cybersecurity measures.",
+            "Cybersecurity challenges do not affect digital interactions."
+        ],
+        "correctAnswer": "Cybersecurity is essential for protecting personal information and ensuring safe online experiences."
+    },
+    {
+        "id": 75,
+        "question": "Paragraph: 'The role of government in healthcare includes regulating medical practices, ensuring access to services, and funding public health initiatives. Government involvement is crucial for maintaining healthcare standards and addressing health disparities. Effective healthcare policies contribute to overall public health.' What is the main idea of this paragraph?",
+        "answers": [
+            "Government involvement is crucial for regulating healthcare practices and addressing health disparities.",
+            "Healthcare standards are not influenced by government regulations.",
+            "Public health initiatives are unrelated to government funding.",
+            "Access to services does not require government regulation."
+        ],
+        "correctAnswer": "Government involvement is crucial for regulating healthcare practices and addressing health disparities."
+    },
+    {
+        "id": 76,
+        "question": "Paragraph: 'The impact of automation on the workforce includes changes in job roles, increased productivity, and the need for new skills. Automation technologies can lead to job displacement but also create opportunities for innovation and efficiency. Preparing the workforce for these changes is essential for future employment.' What is the main idea of this paragraph?",
+        "answers": [
+            "Automation impacts the workforce by changing job roles and creating opportunities for innovation.",
+            "Job displacement is unrelated to automation technologies.",
+            "Productivity does not benefit from automation.",
+            "New skills are not required due to automation."
+        ],
+        "correctAnswer": "Automation impacts the workforce by changing job roles and creating opportunities for innovation."
+    },
+    {
+        "id": 77,
+        "question": "Paragraph: 'The benefits of community service include fostering social responsibility, building stronger communities, and providing support to those in need. Volunteering helps individuals develop empathy and leadership skills while contributing to the common good. Community service enhances personal growth and social cohesion.' What is the main idea of this paragraph?",
+        "answers": [
+            "Community service fosters social responsibility and personal growth.",
+            "Volunteering does not contribute to stronger communities.",
+            "Empathy and leadership skills are unrelated to community service.",
+            "The common good is unaffected by volunteering efforts."
+        ],
+        "correctAnswer": "Community service fosters social responsibility and personal growth."
+    },
+    {
+        "id": 78,
+        "question": "Paragraph: 'The influence of global tourism on local economies includes increased revenue, job creation, and cultural exchange. While tourism can boost economic growth, it also presents challenges such as environmental impact and resource management. Balancing the benefits and challenges of tourism is crucial for sustainable development.' What is the main idea of this paragraph?",
+        "answers": [
+            "Global tourism impacts local economies by increasing revenue and job creation.",
+            "Environmental impact is unrelated to global tourism.",
+            "Resource management is not a concern in tourism development.",
+            "Cultural exchange does not benefit from tourism."
+        ],
+        "correctAnswer": "Global tourism impacts local economies by increasing revenue and job creation."
+    },
+    {
+        "id": 79,
+        "question": "Paragraph: 'The role of social media in modern communication includes facilitating instant connectivity, sharing information, and building online communities. Social media platforms influence how people interact and stay informed. Despite its benefits, there are concerns about privacy and the spread of misinformation.' What is the main idea of this paragraph?",
+        "answers": [
+            "Social media facilitates communication and information sharing while raising privacy concerns.",
+            "Instant connectivity is unrelated to social media.",
+            "Privacy concerns are not associated with social media use.",
+            "Misinformation does not spread through social media."
+        ],
+        "correctAnswer": "Social media facilitates communication and information sharing while raising privacy concerns."
+    },
+    {
+        "id": 80,
+        "question": "Paragraph: 'The significance of public health initiatives includes preventing disease outbreaks, promoting healthy lifestyles, and addressing health disparities. Public health efforts aim to improve community health and enhance the quality of life. Effective initiatives require collaboration and resource allocation.' What is the main idea of this paragraph?",
+        "answers": [
+            "Public health initiatives are essential for improving community health and quality of life.",
+            "Disease prevention is unrelated to public health initiatives.",
+            "Health disparities do not concern public health efforts.",
+            "Collaboration is not necessary for effective public health initiatives."
+        ],
+        "correctAnswer": "Public health initiatives are essential for improving community health and quality of life."
+    }
+]

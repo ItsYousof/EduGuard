@@ -1,0 +1,343 @@
+[
+    {
+        "id": 1,
+        "question": "Did you _____ your homework?",
+        "answers": [
+            "do",
+            "did",
+            "done",
+            "missed"
+        ],
+        "correctAnswer": "do"
+    },
+    {
+        "id": 2,
+        "question": "Can you _____ me a favor?",
+        "answers": [
+            "do",
+            "make",
+            "give",
+            "take"
+        ],
+        "correctAnswer": "do"
+    },
+    {
+        "id": 3,
+        "question": "She _____ to the store yesterday.",
+        "answers": [
+            "goes",
+            "went",
+            "gone",
+            "going"
+        ],
+        "correctAnswer": "went"
+    },
+    {
+        "id": 4,
+        "question": "I _____ my keys.",
+        "answers": [
+            "lost",
+            "lose",
+            "losing",
+            "loss"
+        ],
+        "correctAnswer": "lost"
+    },
+    {
+        "id": 5,
+        "question": "They _____ playing soccer.",
+        "answers": [
+            "is",
+            "are",
+            "were",
+            "was"
+        ],
+        "correctAnswer": "are"
+    },
+    {
+        "id": 6,
+        "question": "_____ you like ice cream?",
+        "answers": [
+            "Do",
+            "Does",
+            "Did",
+            "Done"
+        ],
+        "correctAnswer": "Do"
+    },
+    {
+        "id": 7,
+        "question": "He _____ his homework last night.",
+        "answers": [
+            "did",
+            "do",
+            "done",
+            "doing"
+        ],
+        "correctAnswer": "did"
+    },
+    {
+        "id": 8,
+        "question": "I _____ to the park every weekend.",
+        "answers": [
+            "go",
+            "goes",
+            "going",
+            "gone"
+        ],
+        "correctAnswer": "go"
+    },
+    {
+        "id": 9,
+        "question": "We _____ a movie yesterday.",
+        "answers": [
+            "watch",
+            "watched",
+            "watches",
+            "watching"
+        ],
+        "correctAnswer": "watched"
+    },
+    {
+        "id": 10,
+        "question": "She _____ very happy today.",
+        "answers": [
+            "is",
+            "are",
+            "was",
+            "were"
+        ],
+        "correctAnswer": "is"
+    },
+    {
+        "id": 11,
+        "question": "He _____ in the library now.",
+        "answers": [
+            "study",
+            "studies",
+            "studying",
+            "studied"
+        ],
+        "correctAnswer": "is studying"
+    },
+    {
+        "id": 12,
+        "question": "They _____ to the concert last night.",
+        "answers": [
+            "go",
+            "goes",
+            "went",
+            "gone"
+        ],
+        "correctAnswer": "went"
+    },
+    {
+        "id": 13,
+        "question": "I _____ coffee every morning.",
+        "answers": [
+            "drink",
+            "drinks",
+            "drank",
+            "drinking"
+        ],
+        "correctAnswer": "drink"
+    },
+    {
+        "id": 14,
+        "question": "She _____ an excellent cook.",
+        "answers": [
+            "is",
+            "are",
+            "was",
+            "were"
+        ],
+        "correctAnswer": "is"
+    },
+    {
+        "id": 15,
+        "question": "We _____ to the beach every summer.",
+        "answers": [
+            "go",
+            "goes",
+            "went",
+            "gone"
+        ],
+        "correctAnswer": "go"
+    },
+    {
+        "id": 16,
+        "question": "He _____ his car yesterday.",
+        "answers": [
+            "wash",
+            "washes",
+            "washed",
+            "washing"
+        ],
+        "correctAnswer": "washed"
+    },
+    {
+        "id": 17,
+        "question": "I _____ reading books.",
+        "answers": [
+            "love",
+            "loves",
+            "loved",
+            "loving"
+        ],
+        "correctAnswer": "love"
+    },
+    {
+        "id": 18,
+        "question": "She _____ a letter to her friend.",
+        "answers": [
+            "write",
+            "writes",
+            "wrote",
+            "written"
+        ],
+        "correctAnswer": "wrote"
+    },
+    {
+        "id": 19,
+        "question": "We _____ going to the party tonight.",
+        "answers": [
+            "is",
+            "are",
+            "was",
+            "were"
+        ],
+        "correctAnswer": "are"
+    },
+    {
+        "id": 20,
+        "question": "He _____ in the office every day.",
+        "answers": [
+            "work",
+            "works",
+            "worked",
+            "working"
+        ],
+        "correctAnswer": "works"
+    },
+    {
+        "id": 21,
+        "question": "I _____ breakfast every morning.",
+        "answers": [
+            "eat",
+            "eats",
+            "ate",
+            "eating"
+        ],
+        "correctAnswer": "eat"
+    },
+    {
+        "id": 22,
+        "question": "She _____ a new dress yesterday.",
+        "answers": [
+            "buy",
+            "buys",
+            "bought",
+            "buying"
+        ],
+        "correctAnswer": "bought"
+    },
+    {
+        "id": 23,
+        "question": "We _____ in New York City.",
+        "answers": [
+            "live",
+            "lives",
+            "lived",
+            "living"
+        ],
+        "correctAnswer": "live"
+    },
+    {
+        "id": 24,
+        "question": "He _____ to the gym every day.",
+        "answers": [
+            "go",
+            "goes",
+            "went",
+            "gone"
+        ],
+        "correctAnswer": "goes"
+    },
+    {
+        "id": 25,
+        "question": "I _____ a movie last night.",
+        "answers": [
+            "watch",
+            "watches",
+            "watched",
+            "watching"
+        ],
+        "correctAnswer": "watched"
+    },
+    {
+        "id": 26,
+        "question": "She _____ a beautiful painting.",
+        "answers": [
+            "make",
+            "makes",
+            "made",
+            "making"
+        ],
+        "correctAnswer": "made"
+    },
+    {
+        "id": 27,
+        "question": "We _____ to the museum yesterday.",
+        "answers": [
+            "go",
+            "goes",
+            "went",
+            "gone"
+        ],
+        "correctAnswer": "went"
+    },
+    {
+        "id": 28,
+        "question": "He _____ his car every weekend.",
+        "answers": [
+            "wash",
+            "washes",
+            "washed",
+            "washing"
+        ],
+        "correctAnswer": "washes"
+    },
+    {
+        "id": 29,
+        "question": "I _____ happy to see you.",
+        "answers": [
+            "am",
+            "is",
+            "are",
+            "was"
+        ],
+        "correctAnswer": "am"
+    },
+    {
+        "id": 30,
+        "question": "She _____ a lot of books.",
+        "answers": [
+            "read",
+            "reads",
+            "readed",
+            "reading"
+        ],
+        "correctAnswer": "reads"
+    },
+    {
+        "id": 31,
+        "question": "We _____ to the same school.",
+        "answers": [
+            "go",
+            "goes",
+            "went",
+            "gone"
+        ],
+        "correctAnswer": "go"
+    }
+]

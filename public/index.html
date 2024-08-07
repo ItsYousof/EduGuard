@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduGaurd</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <script src="js/script.js"></script>
+    <script src="js/navigation.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="manifest" href="data/manifest/manifest.json">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="menu">
+            <li><a href="home"><i class='bx bxs-home'></i> Home</a></li>
+            <li class="dropdown-parent">
+                <a href="#features">Discover <i class='bx bx-chevron-down'></i></a>
+                <div class="dropdown">
+                    <div class="dropdown-right">
+                        <a href="" class="dropdown-item" onclick="window.location.href='/homework'"><i class='bx bx-cloud'></i> Homework Cloud Saving</a>
+                        <a href="#" class="dropdown-item" onclick="window.location.href='/textformat'"><i class='bx bx-text' ></i> Text Formatting</a>
+                        <a href="#" class="dropdown-item" onclick="window.location.href='/todo'"><i class='bx bx-list-check'></i> Todo Lists</a>
+                        <a href="#" class="dropdown-item" onclick="window.location.href='/library'"><i class='bx bx-book'></i> Library</a>
+                        <a href="#" class="dropdown-item" onclick="showOthers()"><i class='bx bx-music'></i> Study Music</a>
+                    </div>
+                    <div class="dropdown-left" id="others">
+                        <a href="#" onclick="playMusic()"><i class="bx bx-music"></i> Study Music #1</a>
+                        <a href="#" onclick="playMusic1()"><i class="bx bx-music"></i> Study Music #2</a>
+                        <a href="#" onclick="playMusic2()"><i class="bx bx-music"></i> Study Music #3</a>
+                        <a href="#" onclick="playMusic3()"><i class="bx bx-music"></i> Study Music #4</a>
+                    </div>
+                </div>
+            </li>
+            <li><a href="about"><i class='bx bxs-info-circle'></i> About</a></li>
+
+        </ul>
+        <div class="logo">EduGuard</div>
+        <div class="hamburger"><i class='bx bx-menu'></i></div>
+    </nav>
+
+    <section id="home">
+        <div class="container">
+            <h1>EduGuard</h1>
+            <p>Homework Cloud Saving, Text Formatting, Notes Generator, Todo Lists, and <strong>MORE</strong>.</p>
+        </div>
+    </section>
+</body>
+</html>

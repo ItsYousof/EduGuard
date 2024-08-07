@@ -1,0 +1,25 @@
+{
+  "name": "eduguard-auth",
+  "version": "1.0.0",
+  "description": "EduGuard login and signup system using Supabase and Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "npm install express body-parser cors firebase uuid ws"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^10.12.5",
+    "uuid": "^10.0.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

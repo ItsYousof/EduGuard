@@ -1,0 +1,816 @@
+[
+    {
+        "id": 1,
+        "question": "What does the word 'elaborate' mean?",
+        "answers": [
+            "To simplify",
+            "To explain in detail",
+            "To forget",
+            "To ignore"
+        ],
+        "correctAnswer": "To explain in detail"
+    },
+    {
+        "id": 2,
+        "question": "What is the meaning of 'bizarre'?",
+        "answers": [
+            "Commonplace",
+            "Strange or unusual",
+            "Ordinary",
+            "Predictable"
+        ],
+        "correctAnswer": "Strange or unusual"
+    },
+    {
+        "id": 3,
+        "question": "What does 'meticulous' refer to?",
+        "answers": [
+            "Careless",
+            "Thorough and precise",
+            "Hasty",
+            "Inaccurate"
+        ],
+        "correctAnswer": "Thorough and precise"
+    },
+    {
+        "id": 4,
+        "question": "What is the meaning of 'adversary'?",
+        "answers": [
+            "Friend",
+            "Enemy or opponent",
+            "Ally",
+            "Mentor"
+        ],
+        "correctAnswer": "Enemy or opponent"
+    },
+    {
+        "id": 5,
+        "question": "What does 'ubiquitous' mean?",
+        "answers": [
+            "Rare",
+            "Present everywhere",
+            "Distant",
+            "Uncommon"
+        ],
+        "correctAnswer": "Present everywhere"
+    },
+    {
+        "id": 6,
+        "question": "What does 'ambiguous' mean?",
+        "answers": [
+            "Clear and definite",
+            "Open to more than one interpretation",
+            "Obvious",
+            "Simple"
+        ],
+        "correctAnswer": "Open to more than one interpretation"
+    },
+    {
+        "id": 7,
+        "question": "What is the meaning of 'beneficial'?",
+        "answers": [
+            "Harmful",
+            "Advantageous",
+            "Unhelpful",
+            "Detrimental"
+        ],
+        "correctAnswer": "Advantageous"
+    },
+    {
+        "id": 8,
+        "question": "What does 'diligent' mean?",
+        "answers": [
+            "Lazy",
+            "Hard-working",
+            "Careless",
+            "Unconcerned"
+        ],
+        "correctAnswer": "Hard-working"
+    },
+    {
+        "id": 9,
+        "question": "What is the meaning of 'intricate'?",
+        "answers": [
+            "Simple",
+            "Complex and detailed",
+            "Basic",
+            "Uncomplicated"
+        ],
+        "correctAnswer": "Complex and detailed"
+    },
+    {
+        "id": 10,
+        "question": "What does 'benevolent' mean?",
+        "answers": [
+            "Malevolent",
+            "Kind and well-meaning",
+            "Cruel",
+            "Selfish"
+        ],
+        "correctAnswer": "Kind and well-meaning"
+    },
+    {
+        "id": 11,
+        "question": "What is the meaning of 'pragmatic'?",
+        "answers": [
+            "Idealistic",
+            "Practical and realistic",
+            "Unrealistic",
+            "Emotional"
+        ],
+        "correctAnswer": "Practical and realistic"
+    },
+    {
+        "id": 12,
+        "question": "What does 'gregarious' mean?",
+        "answers": [
+            "Shy",
+            "Sociable and outgoing",
+            "Reserved",
+            "Aloof"
+        ],
+        "correctAnswer": "Sociable and outgoing"
+    },
+    {
+        "id": 13,
+        "question": "What is the meaning of 'sporadic'?",
+        "answers": [
+            "Frequent",
+            "Occasional and irregular",
+            "Constant",
+            "Predictable"
+        ],
+        "correctAnswer": "Occasional and irregular"
+    },
+    {
+        "id": 14,
+        "question": "What does 'candid' mean?",
+        "answers": [
+            "Dishonest",
+            "Truthful and straightforward",
+            "Deceptive",
+            "Guarded"
+        ],
+        "correctAnswer": "Truthful and straightforward"
+    },
+    {
+        "id": 15,
+        "question": "What is the meaning of 'ephemeral'?",
+        "answers": [
+            "Lasting for a very short time",
+            "Enduring",
+            "Eternal",
+            "Constant"
+        ],
+        "correctAnswer": "Lasting for a very short time"
+    },
+    {
+        "id": 16,
+        "question": "What does 'resilient' mean?",
+        "answers": [
+            "Fragile",
+            "Able to recover quickly from difficulties",
+            "Delicate",
+            "Weak"
+        ],
+        "correctAnswer": "Able to recover quickly from difficulties"
+    },
+    {
+        "id": 17,
+        "question": "What is the meaning of 'fortuitous'?",
+        "answers": [
+            "Planned",
+            "Happening by chance",
+            "Intentional",
+            "Predictable"
+        ],
+        "correctAnswer": "Happening by chance"
+    },
+    {
+        "id": 18,
+        "question": "What does 'verbose' mean?",
+        "answers": [
+            "Brief",
+            "Using more words than necessary",
+            "Concise",
+            "Simple"
+        ],
+        "correctAnswer": "Using more words than necessary"
+    },
+    {
+        "id": 19,
+        "question": "What is the meaning of 'jovial'?",
+        "answers": [
+            "Sad",
+            "Cheerful and friendly",
+            "Angry",
+            "Serious"
+        ],
+        "correctAnswer": "Cheerful and friendly"
+    },
+    {
+        "id": 20,
+        "question": "What does 'placid' mean?",
+        "answers": [
+            "Turbulent",
+            "Calm and peaceful",
+            "Noisy",
+            "Chaotic"
+        ],
+        "correctAnswer": "Calm and peaceful"
+    },
+    {
+        "id": 21,
+        "question": "What is the meaning of 'stoic'?",
+        "answers": [
+            "Emotional",
+            "Indifferent to pleasure or pain",
+            "Sensitive",
+            "Excitable"
+        ],
+        "correctAnswer": "Indifferent to pleasure or pain"
+    },
+    {
+        "id": 22,
+        "question": "What does 'precarious' mean?",
+        "answers": [
+            "Stable",
+            "Dangerous and uncertain",
+            "Secure",
+            "Safe"
+        ],
+        "correctAnswer": "Dangerous and uncertain"
+    },
+    {
+        "id": 23,
+        "question": "What is the meaning of 'metaphorical'?",
+        "answers": [
+            "Literal",
+            "Symbolic and figurative",
+            "Exact",
+            "Concrete"
+        ],
+        "correctAnswer": "Symbolic and figurative"
+    },
+    {
+        "id": 24,
+        "question": "What does 'vivid' mean?",
+        "answers": [
+            "Dull",
+            "Bright and clear",
+            "Faint",
+            "Muddy"
+        ],
+        "correctAnswer": "Bright and clear"
+    },
+    {
+        "id": 25,
+        "question": "What is the meaning of 'superficial'?",
+        "answers": [
+            "Deep and profound",
+            "Shallow and lacking depth",
+            "Detailed",
+            "Comprehensive"
+        ],
+        "correctAnswer": "Shallow and lacking depth"
+    },
+    {
+        "id": 26,
+        "question": "What does 'fortify' mean?",
+        "answers": [
+            "Weaken",
+            "Strengthen or protect",
+            "Harm",
+            "Reduce"
+        ],
+        "correctAnswer": "Strengthen or protect"
+    },
+    {
+        "id": 27,
+        "question": "What is the meaning of 'serendipity'?",
+        "answers": [
+            "Misfortune",
+            "Luck or chance occurrence",
+            "Illness",
+            "Disaster"
+        ],
+        "correctAnswer": "Luck or chance occurrence"
+    },
+    {
+        "id": 28,
+        "question": "What does 'austere' mean?",
+        "answers": [
+            "Luxurious",
+            "Severe or strict",
+            "Relaxed",
+            "Comfortable"
+        ],
+        "correctAnswer": "Severe or strict"
+    },
+    {
+        "id": 29,
+        "question": "What is the meaning of 'transient'?",
+        "answers": [
+            "Permanent",
+            "Temporary",
+            "Enduring",
+            "Unchanging"
+        ],
+        "correctAnswer": "Temporary"
+    },
+    {
+        "id": 30,
+        "question": "What does 'enigmatic' mean?",
+        "answers": [
+            "Clear",
+            "Mysterious or difficult to understand",
+            "Simple",
+            "Transparent"
+        ],
+        "correctAnswer": "Mysterious or difficult to understand"
+    },
+    {
+        "id": 31,
+        "question": "What does 'ascend' mean?",
+        "answers": [
+            "To climb or go up",
+            "To descend",
+            "To stay",
+            "To drop"
+        ],
+        "correctAnswer": "To climb or go up"
+    },
+    {
+        "id": 32,
+        "question": "What is the meaning of 'discern'?",
+        "answers": [
+            "To ignore",
+            "To perceive or recognize",
+            "To misinterpret",
+            "To confuse"
+        ],
+        "correctAnswer": "To perceive or recognize"
+    },
+    {
+        "id": 33,
+        "question": "What does 'ephemeral' mean?",
+        "answers": [
+            "Short-lived",
+            "Long-lasting",
+            "Stable",
+            "Unchanging"
+        ],
+        "correctAnswer": "Short-lived"
+    },
+    {
+        "id": 34,
+        "question": "What is the meaning of 'flourish'?",
+        "answers": [
+            "To struggle",
+            "To grow or develop in a healthy way",
+            "To decline",
+            "To wither"
+        ],
+        "correctAnswer": "To grow or develop in a healthy way"
+    },
+    {
+        "id": 35,
+        "question": "What does 'gullible' mean?",
+        "answers": [
+            "Skeptical",
+            "Easily deceived",
+            "Critical",
+            "Suspicious"
+        ],
+        "correctAnswer": "Easily deceived"
+    },
+    {
+        "id": 36,
+        "question": "What is the meaning of 'harbinger'?",
+        "answers": [
+            "A sign of something to come",
+            "A type of food",
+            "A method of teaching",
+            "A kind of weather"
+        ],
+        "correctAnswer": "A sign of something to come"
+    },
+    {
+        "id": 37,
+        "question": "What does 'insidious' mean?",
+        "answers": [
+            "Harmless",
+            "Subtle and harmful",
+            "Obvious",
+            "Beneficial"
+        ],
+        "correctAnswer": "Subtle and harmful"
+    },
+    {
+        "id": 38,
+        "question": "What is the meaning of 'jubilant'?",
+        "answers": [
+            "Sad",
+            "Joyful and triumphant",
+            "Angry",
+            "Indifferent"
+        ],
+        "correctAnswer": "Joyful and triumphant"
+    },
+    {
+        "id": 39,
+        "question": "What does 'luminous' mean?",
+        "answers": [
+            "Dark",
+            "Bright or shining",
+            "Dim",
+            "Faded"
+        ],
+        "correctAnswer": "Bright or shining"
+    },
+    {
+        "id": 40,
+        "question": "What is the meaning of 'nefarious'?",
+        "answers": [
+            "Good",
+            "Wicked or criminal",
+            "Boring",
+            "Kind"
+        ],
+        "correctAnswer": "Wicked or criminal"
+    },
+    {
+        "id": 41,
+        "question": "What does 'obscure' mean?",
+        "answers": [
+            "Clear",
+            "Not well-known or unclear",
+            "Bright",
+            "Simple"
+        ],
+        "correctAnswer": "Not well-known or unclear"
+    },
+    {
+        "id": 42,
+        "question": "What is the meaning of 'quaint'?",
+        "answers": [
+            "Modern",
+            "Charming and old-fashioned",
+            "Unusual",
+            "Unappealing"
+        ],
+        "correctAnswer": "Charming and old-fashioned"
+    },
+    {
+        "id": 43,
+        "question": "What does 'rescind' mean?",
+        "answers": [
+            "To approve",
+            "To cancel or revoke",
+            "To support",
+            "To continue"
+        ],
+        "correctAnswer": "To cancel or revoke"
+    },
+    {
+        "id": 44,
+        "question": "What is the meaning of 'stoic'?",
+        "answers": [
+            "Emotional",
+            "Unemotional and indifferent",
+            "Sensitive",
+            "Excitable"
+        ],
+        "correctAnswer": "Unemotional and indifferent"
+    },
+    {
+        "id": 45,
+        "question": "What does 'tentative' mean?",
+        "answers": [
+            "Definite",
+            "Uncertain or provisional",
+            "Permanent",
+            "Secure"
+        ],
+        "correctAnswer": "Uncertain or provisional"
+    },
+    {
+        "id": 46,
+        "question": "What is the meaning of 'unprecedented'?",
+        "answers": [
+            "Ordinary",
+            "Never before seen",
+            "Common",
+            "Expected"
+        ],
+        "correctAnswer": "Never before seen"
+    },
+    {
+        "id": 47,
+        "question": "What does 'vex' mean?",
+        "answers": [
+            "To please",
+            "To annoy or worry",
+            "To calm",
+            "To reassure"
+        ],
+        "correctAnswer": "To annoy or worry"
+    },
+    {
+        "id": 48,
+        "question": "What is the meaning of 'wary'?",
+        "answers": [
+            "Careless",
+            "Cautious and watchful",
+            "Confident",
+            "Relaxed"
+        ],
+        "correctAnswer": "Cautious and watchful"
+    },
+    {
+        "id": 49,
+        "question": "What does 'yearn' mean?",
+        "answers": [
+            "To dislike",
+            "To have a strong desire",
+            "To ignore",
+            "To reject"
+        ],
+        "correctAnswer": "To have a strong desire"
+    },
+    {
+        "id": 50,
+        "question": "What is the meaning of 'zealous'?",
+        "answers": [
+            "Indifferent",
+            "Fervent and enthusiastic",
+            "Disinterested",
+            "Apathetic"
+        ],
+        "correctAnswer": "Fervent and enthusiastic"
+    },
+    {
+        "id": 51,
+        "question": "What does 'cogent' mean?",
+        "answers": [
+            "Weak",
+            "Convincing and logical",
+            "Unclear",
+            "Irrelevant"
+        ],
+        "correctAnswer": "Convincing and logical"
+    },
+    {
+        "id": 52,
+        "question": "What is the meaning of 'dormant'?",
+        "answers": [
+            "Active",
+            "Inactive or asleep",
+            "Busy",
+            "Energetic"
+        ],
+        "correctAnswer": "Inactive or asleep"
+    },
+    {
+        "id": 53,
+        "question": "What does 'exemplary' mean?",
+        "answers": [
+            "Poor",
+            "Model or outstanding",
+            "Average",
+            "Substandard"
+        ],
+        "correctAnswer": "Model or outstanding"
+    },
+    {
+        "id": 54,
+        "question": "What is the meaning of 'futile'?",
+        "answers": [
+            "Effective",
+            "Pointless or useless",
+            "Productive",
+            "Useful"
+        ],
+        "correctAnswer": "Pointless or useless"
+    },
+    {
+        "id": 55,
+        "question": "What does 'genuine' mean?",
+        "answers": [
+            "Fake",
+            "Real or authentic",
+            "False",
+            "Imitative"
+        ],
+        "correctAnswer": "Real or authentic"
+    },
+    {
+        "id": 56,
+        "question": "What is the meaning of 'heuristic'?",
+        "answers": [
+            "Automated",
+            "Aiding discovery or problem-solving",
+            "Repetitive",
+            "Routine"
+        ],
+        "correctAnswer": "Aiding discovery or problem-solving"
+    },
+    {
+        "id": 57,
+        "question": "What does 'imminent' mean?",
+        "answers": [
+            "Distant",
+            "About to happen",
+            "Unlikely",
+            "Delayed"
+        ],
+        "correctAnswer": "About to happen"
+    },
+    {
+        "id": 58,
+        "question": "What is the meaning of 'jaded'?",
+        "answers": [
+            "Excited",
+            "Tired or worn out",
+            "Enthusiastic",
+            "Fresh"
+        ],
+        "correctAnswer": "Tired or worn out"
+    },
+    {
+        "id": 59,
+        "question": "What does 'keen' mean?",
+        "answers": [
+            "Indifferent",
+            "Eager or enthusiastic",
+            "Apathetic",
+            "Uninterested"
+        ],
+        "correctAnswer": "Eager or enthusiastic"
+    },
+    {
+        "id": 60,
+        "question": "What is the meaning of 'loquacious'?",
+        "answers": [
+            "Quiet",
+            "Talkative",
+            "Reserved",
+            "Shy"
+        ],
+        "correctAnswer": "Talkative"
+    },
+    {
+        "id": 61,
+        "question": "What does 'mundane' mean?",
+        "answers": [
+            "Exciting",
+            "Ordinary or dull",
+            "Extraordinary",
+            "Remarkable"
+        ],
+        "correctAnswer": "Ordinary or dull"
+    },
+    {
+        "id": 62,
+        "question": "What is the meaning of 'nurture'?",
+        "answers": [
+            "To harm",
+            "To care for and encourage growth",
+            "To neglect",
+            "To damage"
+        ],
+        "correctAnswer": "To care for and encourage growth"
+    },
+    {
+        "id": 63,
+        "question": "What does 'oblivious' mean?",
+        "answers": [
+            "Aware",
+            "Unaware or forgetful",
+            "Focused",
+            "Attentive"
+        ],
+        "correctAnswer": "Unaware or forgetful"
+    },
+    {
+        "id": 64,
+        "question": "What is the meaning of 'pristine'?",
+        "answers": [
+            "Dirty",
+            "In its original condition",
+            "Used",
+            "Damaged"
+        ],
+        "correctAnswer": "In its original condition"
+    },
+    {
+        "id": 65,
+        "question": "What does 'quixotic' mean?",
+        "answers": [
+            "Realistic",
+            "Exceedingly idealistic or impractical",
+            "Pragmatic",
+            "Down-to-earth"
+        ],
+        "correctAnswer": "Exceedingly idealistic or impractical"
+    },
+    {
+        "id": 66,
+        "question": "What is the meaning of 'resilient'?",
+        "answers": [
+            "Weak",
+            "Able to recover quickly",
+            "Fragile",
+            "Delicate"
+        ],
+        "correctAnswer": "Able to recover quickly"
+    },
+    {
+        "id": 67,
+        "question": "What does 'staid' mean?",
+        "answers": [
+            "Excitable",
+            "Serious and dignified",
+            "Carefree",
+            "Lively"
+        ],
+        "correctAnswer": "Serious and dignified"
+    },
+    {
+        "id": 68,
+        "question": "What is the meaning of 'tangible'?",
+        "answers": [
+            "Abstract",
+            "Perceptible by touch",
+            "Unseen",
+            "Imaginary"
+        ],
+        "correctAnswer": "Perceptible by touch"
+    },
+    {
+        "id": 69,
+        "question": "What does 'unravel' mean?",
+        "answers": [
+            "To tangle",
+            "To solve or make clear",
+            "To confuse",
+            "To complicate"
+        ],
+        "correctAnswer": "To solve or make clear"
+    },
+    {
+        "id": 70,
+        "question": "What is the meaning of 'vivid'?",
+        "answers": [
+            "Faint",
+            "Bright and clear",
+            "Dull",
+            "Muddy"
+        ],
+        "correctAnswer": "Bright and clear"
+    },
+    {
+        "id": 71,
+        "question": "What does 'warrant' mean?",
+        "answers": [
+            "To deny",
+            "To justify or give reason for",
+            "To disregard",
+            "To neglect"
+        ],
+        "correctAnswer": "To justify or give reason for"
+    },
+    {
+        "id": 72,
+        "question": "What is the meaning of 'xenophobia'?",
+        "answers": [
+            "Love for strangers",
+            "Fear or dislike of strangers or foreigners",
+            "Trust in people",
+            "Acceptance of diversity"
+        ],
+        "correctAnswer": "Fear or dislike of strangers or foreigners"
+    },
+    {
+        "id": 73,
+        "question": "What does 'yoke' mean?",
+        "answers": [
+            "A type of food",
+            "A device for joining animals",
+            "A style of clothing",
+            "A method of transportation"
+        ],
+        "correctAnswer": "A device for joining animals"
+    },
+    {
+        "id": 74,
+        "question": "What is the meaning of 'zenith'?",
+        "answers": [
+            "Bottom",
+            "The highest point or peak",
+            "Middle",
+            "Low point"
+        ],
+        "correctAnswer": "The highest point or peak"
+    }
+]
