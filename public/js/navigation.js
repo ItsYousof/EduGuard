@@ -48,29 +48,37 @@ function show() {
 }
 
 async function playMusic() {
-    let audio = new Audio('../data/music/music1.mp3');
+    let audio = new Audio('https://data-sable.vercel.app/music1.mp3');
     audio.play();
     audio.loop = true;
     audio.volume = 1.0;
 }
 
 async function playMusic1() {
-    let audio = new Audio('../data/music/music2.mp3');
+    let audio = new Audio('https://data-sable.vercel.app/music2.mp3');
     audio.play();
     audio.loop = true;
     audio.volume = 1.0;
 }
 
 async function playMusic2() {
-    let audio = new Audio('../data/music/music3.mp3');
+    let audio = new Audio('https://data-sable.vercel.app/music3.mp3');
     audio.play();
     audio.loop = true;
     audio.volume = 1.0;
 }
 
 async function playMusic3() {
-    let audio = new Audio('../data/music/music4.mp3');
+    let audio = new Audio('https://data-sable.vercel.app/music4.mp3');
     audio.play();
     audio.loop = true;
     audio.volume = 1.0;
+}
+
+function showOther1s() {
+    document.getElementById("others").style.display = "none";
+    document.getElementById("other1s").style.display = "flex";
+    setTimeout(function() {
+        show();
+    }, 1);
 }
