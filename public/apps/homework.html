@@ -8,7 +8,8 @@
     <script src="../js/navigation.js"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../css/hw.css">
-    <script src="../js/homework.js" type="module"></script>
+    <script src="../js/homework.js"></script>
+    <link rel="icon" href="../data/image/EduGuard.png">
 </head>
 <body>
     <nav class="navbar">
@@ -41,7 +42,7 @@
     <section id="homework-cards"></section>
 
     <section class="add">
-        <i class='bx bx-plus' id="add-btn"></i>
+        <i class='bx bx-plus' onclick="showPopup()"></i>
     </section>
 
     <div class="popup" id="popup" style="display: none;">
@@ -56,7 +57,7 @@
                 <label for="link">Link:</label>
                 <input type="text" name="link" id="link">
             </form>
-            <button id="add-c">Add</button>
+            <button onclick="addHomework()">Add</button>
         </div>
     </div>
 </body>
