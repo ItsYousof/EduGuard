@@ -47,32 +47,39 @@ function show() {
     document.querySelector('.dropdown').style.display = 'flex';
 }
 
-async function playMusic() {
-    let audio = new Audio('https://data-sable.vercel.app/music1.mp3');
-    audio.play();
-    audio.loop = true;
-    audio.volume = 1.0;
+let currentSong = null;
+
+function playMusic(url) {
+    // Stop the currently playing song if there is one
+    if (currentSong) {
+        currentSong.pause();
+        currentSong.currentTime = 0; // Reset the current time
+    }
+
+    // Create and play the new song
+    currentSong = new Audio(url);
+    currentSong.loop = true;
+    currentSong.volume = 1.0;
+    currentSong.play().catch(error => {
+        console.error("Failed to play audio:", error);
+    });
 }
 
-async function playMusic1() {
-    let audio = new Audio('https://data-sable.vercel.app/music2.mp3');
-    audio.play();
-    audio.loop = true;
-    audio.volume = 1.0;
+// Functions to play specific songs
+function playMusic1() {
+    playMusic('https://data-sable.vercel.app/music1.mp3');
 }
 
-async function playMusic2() {
-    let audio = new Audio('https://data-sable.vercel.app/music3.mp3');
-    audio.play();
-    audio.loop = true;
-    audio.volume = 1.0;
+function playMusic2() {
+    playMusic('https://data-sable.vercel.app/music2.mp3');
 }
 
-async function playMusic3() {
-    let audio = new Audio('https://data-sable.vercel.app/music4.mp3');
-    audio.play();
-    audio.loop = true;
-    audio.volume = 1.0;
+function playMusic3() {
+    playMusic('https://data-sable.vercel.app/music3.mp3');
+}
+
+function playMusic4() {
+    playMusic('https://data-sable.vercel.app/music4.mp3');
 }
 
 function showOther1s() {
