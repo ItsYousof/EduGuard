@@ -11,6 +11,7 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="manifest" href="data/manifest/manifest.json">
     <link rel="icon" href="data/image/EduGuard.png">
+    <link rel="stylesheet" href="css/notes.css">
 </head>
 <body>
     <nav class="navbar">
@@ -45,6 +46,25 @@
         <div class="container">
             <h1>EduGuard</h1>
             <p>Homework Cloud Saving, Text Formatting, Notes Generator, Todo Lists, and <strong>MORE</strong>.</p>
+        </div>
+    </section>
+
+    <section id="notes-popup">
+        <div class="container">
+            <main>
+                <div class="top">
+                    <p>Your Notes:</p>
+                    <i class='bx bx-x' onclick="closeNotesPopup()"></i>
+                </div>
+                <div class="middle">
+                    <div id="p-notes"></div>
+                    <textarea name="" id="notes-textarea" maxlength="500"></textarea>
+                </div>
+                <div class="bottom">
+                    <button id="save-notes-btn">Save</button>
+                    <button id="save-notes-btn" onclick="createNotes()">New</button>
+                </div>
+            </main>
         </div>
     </section>
 </body>

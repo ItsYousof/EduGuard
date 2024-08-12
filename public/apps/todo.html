@@ -10,6 +10,7 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="../js/todo.js"></script>
     <link rel="icon" href="../data/image/EduGuard.png">
+    <link rel="stylesheet" href="../css/notes.css">
 </head>
 <body>
     <nav class="navbar">
@@ -53,6 +54,25 @@
             <ul id="list">
                 <h2>Your Todo List:</h2>
             </ul>
+        </div>
+    </section>
+
+    <section id="notes-popup">
+        <div class="container">
+            <main>
+                <div class="top">
+                    <p>Your Notes:</p>
+                    <i class='bx bx-x' onclick="closeNotesPopup()"></i>
+                </div>
+                <div class="middle">
+                    <div id="p-notes"></div>
+                    <textarea name="" id="notes-textarea" maxlength="500"></textarea>
+                </div>
+                <div class="bottom">
+                    <button id="save-notes-btn">Save</button>
+                    <button id="save-notes-btn" onclick="createNotes()">New</button>
+                </div>
+            </main>
         </div>
     </section>
 </body>

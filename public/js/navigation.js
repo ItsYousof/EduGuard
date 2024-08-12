@@ -1,3 +1,9 @@
+if (localStorage.getItem("notes") === null) {
+    localStorage.setItem("notes", JSON.stringify([]));
+}
+let currentEditIndex = null;
+
+
 document.addEventListener("DOMContentLoaded", function() {
     document.querySelector('.hamburger').addEventListener('click', () => {
         document.querySelector('.menu').classList.toggle('active');
@@ -28,10 +34,9 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
-    let auth = sessionStorage.getItem('auth');
-    if (!auth == 'true') {
-        window.location.href = 'login.html';
-    }
+    document.getElementById("save-notes-btn").addEventListener("click", function() {
+        createNotes();
+    });
 
 });
 
@@ -89,3 +94,89 @@ function showOther1s() {
         show();
     }, 1);
 }
+
+// Check if `shift` + `n` is pressed
+document.addEventListener('keydown', function(event) {
+    if (event.shiftKey && event.key === 'N') {
+        event.preventDefault();
+        if (document.getElementById("notes-popup").style.display == "flex") {
+            document.getElementById("notes-popup").style.display = "none";
+        } else {
+            document.getElementById("notes-popup").style.display = "flex";
+        }
+    }
+});
+
+function closeNotesPopup() {
+    document.getElementById("notes-popup").style.display = "none";
+}
+
+function createNotes() {
+    let notes = document.getElementById("notes-textarea").value;
+    if (notes === "") {
+        alert("Please enter some notes.");
+        return;
+    }
+    document.getElementById("notes-textarea").value = "";
+
+    let date = new Date();
+    let dateString = date.toLocaleDateString();
+    let firstTwoWords = notes.split(' ').slice(0, 2).join(' ');
+    let data = {
+        title: firstTwoWords,
+        notes: notes,
+        date: dateString
+    };
+
+    let notesArray = JSON.parse(localStorage.getItem("notes")) || [];
+
+    if (currentEditIndex !== null) {
+        // Update the existing note
+        notesArray[currentEditIndex] = data;
+        localStorage.setItem("notes", JSON.stringify(notesArray));
+        currentEditIndex = null; // Reset the edit index
+    } else {
+        // Create a new note
+        notesArray.push(data);
+        localStorage.setItem("notes", JSON.stringify(notesArray));
+    }
+
+    // Reload notes
+    loadNotes();
+}
+
+
+function addNotes(title, date, notes, index) {
+    let notesContainer = document.getElementById("p-notes");
+    let note = document.createElement("div");
+    note.classList.add("note");
+
+    let titleElement = document.createElement("p");
+    titleElement.classList.add("note-title");
+    titleElement.textContent = title;
+
+    let dateElement = document.createElement("p");
+    dateElement.classList.add("note-date");
+    dateElement.textContent = date;
+
+    note.appendChild(titleElement);
+    note.appendChild(dateElement);
+    notesContainer.appendChild(note);
+
+    note.addEventListener("click", function() {
+        document.getElementById("notes-textarea").value = notes;
+        currentEditIndex = index; // Set the index of the note being edited
+    });
+}
+
+function loadNotes() {
+    let notesArray = JSON.parse(localStorage.getItem("notes")) || [];
+    let notesContainer = document.getElementById("p-notes");
+    notesContainer.innerHTML = ""; // Clear existing notes
+
+    notesArray.forEach((note, index) => {
+        addNotes(note.title, note.date, note.notes, index);
+    });
+}
+
+document.addEventListener("DOMContentLoaded", loadNotes);
