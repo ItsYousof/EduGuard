@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Roboto+Slab:wght@100..900&display=swap');
+
+body {
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 3.6rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.lobby {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lobby input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.quiz {
+    display: none;
+}
+
+.buttons-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #72bc9a;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buttons-container button:hover {
+    background-color: #5ca88f;
+}
+
+meter {
+    --background: #dadada;
+    --optimum: forestgreen;
+    --sub-optimum: gold;
+    --sub-sub-optimum: crimson;
+  
+    /* The gray background in Firefox */
+    background: var(--background);
+    display: block;
+    margin-bottom: 1em;
+    width: 100%;
+    border-radius: 5px;
+    transition: all 0.2s linear;
+  }
+  
+  /* The gray background in Chrome, etc. */
+  meter::-webkit-meter-bar {
+    background: var(--background);
+    border: none;
+  }
+  
+  /* The green (optimum) bar in Firefox */
+  meter:-moz-meter-optimum::-moz-meter-bar {
+    background: var(--optimum);
+  }
+  
+  /* The green (optimum) bar in Chrome etc. */
+  meter::-webkit-meter-optimum-value {
+    background: var(--optimum);
+  }
+  
+  /* The yellow (sub-optimum) bar in Firefox */
+  meter:-moz-meter-sub-optimum::-moz-meter-bar {
+    background: var(--sub-optimum);
+  }
+  
+  /* The yellow (sub-optimum) bar in Chrome etc. */
+  meter::-webkit-meter-suboptimum-value {
+    background: var(--sub-optimum);
+  }
+  
+  /* The red (even less good) bar in Firefox */
+  meter:-moz-meter-sub-sub-optimum::-moz-meter-bar {
+    background: var(--sub-sub-optimum);
+  }
+  
+  /* The red (even less good) bar in Chrome etc. */
+  meter::-webkit-meter-even-less-good-value {
+    background: var(--sub-sub-optimum);
+  }
+#question {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#answers {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#answers li {
+    font-size: 1.5rem;
+    list-style-type: none;
+    cursor: pointer;
+    background: #72bc9a;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+#answers li:hover {
+    background-color: #5ca88f;
+}
+
+#score-text {
+    font-size: 1rem;
+    color: #72bc9984;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.end {
+    display: none;
+    text-align: center;
+    display: none;
+}
+
+.preview {
+    display: none;
+    text-align: center;
+}
+
+.preview h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.preview p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+#preview-questions {
+    margin-top: 1rem;
+}
+
+#preview-questions li {
+    font-size: 1.5rem;
+    list-style-type: none;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.preview button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #72bc9a;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.preview button:hover {
+    background-color: #5ca88f;
+}
+
+.preview input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    outline: none;
+    width: 50%;
+}

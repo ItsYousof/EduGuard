@@ -10,6 +10,10 @@ app.use(express.static(path.join(__dirname, filePath)));
 app.use(bodyParser.json());
 app.use(express.static('public'));
 
+app.get('/math_reviews', (req, res) => {
+    res.sendFile(path.join(__dirname, filePath, '/apps/math.html'))
+})
+
 app.get('/online', (req, res) => {
     res.sendFile(path.join(__dirname, filePath, '/online/index.html'));
 })

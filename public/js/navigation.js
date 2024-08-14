@@ -5,6 +5,12 @@ let currentEditIndex = null;
 
 
 document.addEventListener("DOMContentLoaded", function() {
+    const uniqueParam = `?v=${new Date().getTime()}`;
+    const script = document.createElement('script');
+    script.src = `script.js${uniqueParam}`;
+    document.head.appendChild(script);
+
+
     document.querySelector('.hamburger').addEventListener('click', () => {
         document.querySelector('.menu').classList.toggle('active');
     });
@@ -89,7 +95,7 @@ function playMusic4() {
 
 function showOther1s() {
     document.getElementById("others").style.display = "none";
-    document.getElementById("other1s").style.display = "flex";
+    document.getElementById("other1").style.display = "flex";
     setTimeout(function() {
         show();
     }, 1);
@@ -180,3 +186,4 @@ function loadNotes() {
 }
 
 document.addEventListener("DOMContentLoaded", loadNotes);
+

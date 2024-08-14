@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div id="main-lobby" class="lobby container">
+        
+        <h1>Quiz App</h1>
+        <input type="text" name="name" id="username" placeholder="Enter your name">
+        <div class="buttons-container">
+            <button id="start-btn">Start Quiz</button>
+            <button id="preview-btn">Preview Quiz</button>
+        </div>
+        <p>You will have 35 seconds to answers 10 questions.</p>
+    </div>
+
+    <div id="quiz-screen" class="quiz container">
+        <meter value="0" id="progress-bar" min="0" max="35" low="10" high="20" optimum="30"></meter>
+        <h2 id="question"></h2>
+        <div id="answers"></div>
+        <p id="score-text"><span id="score">1</span> / 10</p>
+    </div>
+
+    <div id="end-screen" class="end container">
+        <h2 id="score1">4 / 10</h2>
+        <h3 id="code">Code: </h3>
+        <p>You can use this code to preview your quiz later.</p>
+    </div>
+
+    <div id="preview-screen" class="preview container">
+        <h1>Quiz Preview</h1>
+        <label for="preview-code-input">Enter a quiz code:</label>
+        <input type="text" id="preview-code-input">
+        <h2 id="preview-score">Score: </h2>
+        <h3 id="preview-username">Username: </h3>
+        <h3 id="preview-code">Code: </h3>
+        <button id="back-btn">Back</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
