@@ -54,7 +54,7 @@ function showQuizScreen() {
 
 async function startQuiz(username) {
     // Get the questions from the JSON file
-    const response = await fetch("math.json");
+    const response = await fetch("https://edu.alsiraj.autos/apps/math.json");
     const questionsJson = await response.json();
 
     // Shuffle the questions and return 10 random questions, set other variables
