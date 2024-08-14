@@ -5,6 +5,18 @@ let filePath = '/public';
 const app = express();
 const port = 3000;
 
+// Cache-Control Middleware
+const noCache = (req, res, next) => {
+    res.setHeader('Cache-Control', 'no-store');
+    res.setHeader('Pragma', 'no-cache');
+    res.setHeader('Expires', '0');
+    next();
+  };
+  
+  // Use the middleware for all routes
+  app.use(noCache);
+  
+
 app.use(express.static(path.join(__dirname, filePath)));
 
 app.use(bodyParser.json());
