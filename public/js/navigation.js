@@ -181,3 +181,11 @@ function loadNotes() {
 
 document.addEventListener("DOMContentLoaded", loadNotes);
 
+document.addEventListener("DOMContentLoaded", function() {
+    let authentication = sessionStorage.getItem("auth");
+
+    if (authentication !== "true" && window.location.pathname !== "/login" &&
+        window.location.pathname !== '/home' && window.location.pathname !== '/') {
+        window.location.href = "/login";
+    }
+});
