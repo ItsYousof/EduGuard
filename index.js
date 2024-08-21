@@ -3,7 +3,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 let filePath = '/public';
 const app = express();
-const port = 3222;
+const port = 5050;
 
 // Cache-Control Middleware
 const noCache = (req, res, next) => {
@@ -28,10 +28,6 @@ app.get('/math_reviews', (req, res) => {
 
 app.get('/online', (req, res) => {
     res.sendFile(path.join(__dirname, filePath, '/online/index.html'));
-})
-
-app.get('/login', (req, res) => {
-    res.sendFile(path.join(__dirname, filePath, '/login.html'));
 })
 
 app.get('/home', (req, res) => {
