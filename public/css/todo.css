@@ -8,12 +8,85 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Dark Theme for Home page  */
+body.dark {
+    background: url('../data/image/darkBackground.svg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: var(--dark-background);
+    color: #ffffff;
+}
+
+body.dark .navbar {
+    background-color: var(--dark-background);
+    color: #ffffff;
+}
+
+body.dark .navbar .menu li a {
+    color: #ffffff;
+}
+
+body.dark .navbar .menu li .dropdown {
+    display: none;
+    background: #001220;
+}
+
+body.dark .navbar .menu li .dropdown-left {
+    display: none;
+    background: #001220;
+}
+
+body.dark .navbar .menu li .dropdown-left a {
+    color: #ffffff;
+}
+
+body.dark .navbar .menu li .dropdown-left a:hover {
+    background-color: #f8f8f8;
+}
+
+body.dark .navbar .logo:hover {
+    color: #007bff;
+}
+
+.navbar .menu li .dropdown .dropdown-item:hover {
+    background-color: #001c31;
+}
+
+body.dark .navbar .menu li .dropdown .dropdown-item {
+    color: #ffffff;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+body.dark .navbar .menu li .dropdown-left a {
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+body.dark .navbar .menu li .dropdown-left a:hover {
+    background-color: #001c31;
+}
+
+body.dark input {
+    color: #ffffff;
+    background-color: #00122098;
+}
+
+body.dark #todo .todo-list ul li {
+    background-color: #001220c6;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+body.dark #todo .todo-list ul li:hover {
+    background-color: #001d32b9;
+}
 
 #todo {
     display: flex;
     justify-content: center;
     height: 100vh;
 }
+
 
 #todo h1 {
     font-size: 3em;

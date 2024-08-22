@@ -6,6 +6,96 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Dark Theme for Home page  */
+body.dark {
+    background: url('../data/image/darkBackground.svg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: var(--dark-background);
+    color: #ffffff;
+}
+
+body.dark .navbar {
+    background-color: var(--dark-background);
+    color: #ffffff;
+}
+
+body.dark .navbar .menu li a {
+    color: #ffffff;
+}
+
+body.dark .navbar .menu li .dropdown {
+    display: none;
+    background: #001220;
+}
+
+body.dark .navbar .menu li .dropdown-left {
+    display: none;
+    background: #001220;
+}
+
+body.dark .navbar .menu li .dropdown-left a {
+    color: #ffffff;
+}
+
+body.dark .navbar .menu li .dropdown-left a:hover {
+    background-color: #f8f8f8;
+}
+
+body.dark .navbar .logo:hover {
+    color: #007bff;
+}
+
+.navbar .menu li .dropdown .dropdown-item:hover {
+    background-color: #001c31;
+}
+
+body.dark .navbar .menu li .dropdown .dropdown-item {
+    color: #ffffff;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+body.dark .navbar .menu li .dropdown-left a {
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+body.dark .navbar .menu li .dropdown-left a:hover {
+    background-color: #001c31;
+}
+
+body.dark footer a {
+    color: #ffffff;
+}
+
+body.dark .add i {
+    background: #f8f8f8;
+    color: #001220;
+    transition: all 0.3s ease;
+}
+
+body.dark .add i:hover {
+    background: #001220;
+    color: #f8f8f8;
+}
+
+body.dark .card {
+    background: #001c31;
+    color: #f8f8f8;
+}
+
+body.dark .card a {
+    color: #f8f8f8;
+}
+
+body.dark .card a:hover {
+    color: #ffa200;
+}
+
+body.dark .popup {
+    color: #000;
+}
+
 
 #homework {
     display: flex;
