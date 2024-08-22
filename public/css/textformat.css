@@ -10,7 +10,6 @@ body {
 body.dark {
     background: url('../data/image/darkBackground.svg') no-repeat center center fixed;
     background-size: cover;
-    background-position: center;
     background-color: var(--dark-background);
     color: #ffffff;
 }
@@ -34,20 +33,9 @@ body.dark .navbar .menu li .dropdown-left {
     background: #001220;
 }
 
-body.dark .navbar .menu li .dropdown-left a {
-    color: #ffffff;
-}
-
-body.dark .navbar .menu li .dropdown-left a:hover {
-    background-color: #f8f8f8;
-}
 
 body.dark .navbar .logo:hover {
     color: #007bff;
-}
-
-.navbar .menu li .dropdown .dropdown-item:hover {
-    background-color: #001c31;
 }
 
 body.dark .navbar .menu li .dropdown .dropdown-item {
@@ -56,6 +44,10 @@ body.dark .navbar .menu li .dropdown .dropdown-item {
     transition: all 0.3s ease;
 }
 
+body.dark .navbar .menu li .dropdown .dropdown-item:hover {
+    background-color: #002c4ec8;
+}
+
 body.dark .navbar .menu li .dropdown-left a {
     border-radius: 4px;
     transition: all 0.3s ease;
@@ -64,7 +56,6 @@ body.dark .navbar .menu li .dropdown-left a {
 body.dark .navbar .menu li .dropdown-left a:hover {
     background-color: #001c31;
 }
-
 body.dark textarea {
     background-color: #0012208a;
     color: #ffffff;

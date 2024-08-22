@@ -33,14 +33,10 @@ body.dark .navbar .menu li .dropdown-left {
     background: #001220;
 }
 
-body.dark .navbar .menu li .dropdown-left a:hover {
-    background-color: #001c32c8;
-}
 
 body.dark .navbar .logo:hover {
     color: #007bff;
 }
-
 
 body.dark .navbar .menu li .dropdown .dropdown-item {
     color: #ffffff;
@@ -49,13 +45,18 @@ body.dark .navbar .menu li .dropdown .dropdown-item {
 }
 
 body.dark .navbar .menu li .dropdown .dropdown-item:hover {
-    background-color: #001c32c8;
+    background-color: #002c4ec8;
 }
 
 body.dark .navbar .menu li .dropdown-left a {
     border-radius: 4px;
     transition: all 0.3s ease;
 }
+
+body.dark .navbar .menu li .dropdown-left a:hover {
+    background-color: #001c31;
+}
+
 body.dark input {
     background-color: #001c31c8;
     color: #ffffff;
