@@ -39,7 +39,8 @@ app.get('/library', (req, res) => {
 });
 
 app.get('/projects', (req, res) => {
-    res.sendFile(paht.join(__dirname, filePath, '/project_lighter/index.html'))
+    res.sendFile(path.join(__dirname, filePath, '/index.html'));
+    res.redirect('/home');
 })
 
 app.get('/homework', (req, res) => {

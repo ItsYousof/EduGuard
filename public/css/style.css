@@ -4,12 +4,12 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    overflow: hidden;
 }
 
 :root {
     --dark-background: #001220;
 }
+
 /* Dark Theme for Home page  */
 body.dark {
     background: url('../data/image/darkBackground.svg') no-repeat center center fixed;
@@ -108,4 +108,251 @@ footer a {
     &:hover {
         color: #007bff;
     }
+}
+
+/* Styles for Project Lighter */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #1E1E1E;
+    /* Almost black for a sleek look */
+    --secondary-color: #C0C0C0;
+    /* Silver for contrast */
+    --background-color: #F0F0F0;
+    /* Very light gray for a clean background */
+    --text-color: #FFFFFF;
+    /* White for text on the dark background */
+    --accent-color: #FF5722;
+    /* A vibrant orange for highlights */
+    --hover-color: #FF8A50;
+    /* Lighter orange for hover effects */
+    --border-color: #3E3E3E;
+    /* Dark gray for borders */
+}
+
+
+.button-6 {
+    --ripple-background: rgb(185, 185, 185);
+    --ripple-opacity: 2.0;
+    --ripple-duration: 300ms;
+    width: 85px;
+    height: 85px;
+    align-items: right;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 1.25;
+    margin: -5px;
+    margin-top: 3px;
+    margin-left: 10px;
+    padding: 0px 10px;
+    margin-right: 20px;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.button-6:hover {
+    border: transparent 2px rgba(255, 255, 255, 0.596);
+    background-color: var(--hover-color);
+    box-shadow: 0px 8px 48px 0px rgba(0, 0, 0, 0.4);
+    transform: translate(-0%, -3%);
+}
+
+.button-6:active {
+    background-color: rgba(255, 255, 255, 0.582);
+    transform: translateY(0);
+}
+
+/* Main section styles */
+#projects-section {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    width: 90vw;
+    max-width: 90vw;
+    border-radius: 15px;
+    min-height: 50vh;
+    overflow: hidden;
+    background: var(--primary-color);
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.4);
+    border: 1px solid var(--border-color);
+}
+
+#projects-section h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    background: var(--primary-color);
+    border: 1px solid var(--border-color);
+    height: fit-content;
+}
+
+.project h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.project p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.project a {
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+/* Popup Modal Styles */
+.popup {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 60px;
+}
+
+.popup-content {
+    background-color: var(--primary-color);
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    width: 80%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.4);
+    color: var(--text-color);
+}
+
+.close-button {
+    color: var(--text-color);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: var(--hover-color);
+    cursor: pointer;
+}
+
+form label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+form button {
+    margin-top: 10px;
+    width: 100%;
+}
+
+@keyframes moveGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.moving-gradient {
+    background: linear-gradient(45deg, var(--primary-color), var(--accent-color), var(--secondary-color));
+    background-size: 200% 200%;
+    animation: moveGradient 8s ease infinite;
+}
+
+.a-button {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    border: 1px solid var(--border-color);
+}
+
+.a-button:hover {
+    background-color: var(--hover-color);
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.top span {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.top span:hover {
+    color: var(--hover-color);
+}
+
+.top span:active {
+    transform: scale(0.9);
+}
+
+#project_lighter {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
 }

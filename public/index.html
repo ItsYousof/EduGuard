@@ -1,79 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EduGaurd</title>
-    <link rel="stylesheet" href="css/navigation.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <script src="js/script.js"></script>
     <script src="js/navigation.js"></script>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="manifest" href="data/manifest/manifest.json">
-    <link rel="icon" href="data/image/EduGuard.png">
-    <link rel="stylesheet" href="css/notes.css">
-</head>
-<body>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="manifest" href="data/manifest/manifest.json" />
+    <link rel="icon" href="data/image/EduGuard.png" />
+    <link rel="stylesheet" href="css/notes.css" />
+  </head>
+  <body>
     <nav class="navbar">
-        <ul class="menu">
-            <li><a href="home"><i class='bx bxs-home'></i> Home</a></li>
-            <li class="dropdown-parent">
-                <a href="#features">Discover <i class='bx bx-chevron-down'></i></a>
-                <div class="dropdown">
-                    <div class="dropdown-right">
-                        <a href="" class="dropdown-item" onclick="window.location.href='/homework'"><i class='bx bx-cloud'></i> Homework Cloud Saving</a>
-                        <a href="#" class="dropdown-item" onclick="window.location.href='/textformat'"><i class='bx bx-text' ></i> Text Formatting</a>
-                        <a href="#" class="dropdown-item" onclick="window.location.href='/todo'"><i class='bx bx-list-check'></i> Todo Lists</a>
-                        <a href="#" class="dropdown-item" onclick="window.location.href='/library'"><i class='bx bx-book'></i> Library</a>
-                        <a href="#" class="dropdown-item" onclick="showOthers()"><i class='bx bx-music'></i> Study Music</a>
-                        <a href="#" class="dropdown-item" onclick="showOther1s()"><i class="bx bx-notepad"></i> Quizzes</a>
-                    </div>
-                    <div class="dropdown-left" id="others">
-                        <a href="#" onclick="playMusic1()"><i class="bx bx-music"></i> Study Music #1</a>
-                        <a href="#" onclick="playMusic2()"><i class="bx bx-music"></i> Study Music #2</a>
-                        <a href="#" onclick="playMusic3()"><i class="bx bx-music"></i> Study Music #3</a>
-                        <a href="#" onclick="playMusic4()"><i class="bx bx-music"></i> Study Music #4</a>
-                    </div>
-                    <div class="dropdown-left" id="other1">
-                        <a href="#" onclick="window.location.href='/math_reviews'"><i class='bx bx-code-alt'></i> Math Quizzes</a>
-                    </div>
-                </div>
-            </li>
-            <li><a href="about"><i class='bx bxs-info-circle'></i> About</a></li>
-            <li><a href="projects"><i class="bx bxs-briefcase"></i> Projects</a></li>
-        </ul>
-        <div class="logo">EduGuard</div>
-        <div class="hamburger"><i class='bx bx-menu'></i></div>
+      <ul class="menu">
+        <li>
+          <a href="home"><i class="bx bxs-home"></i> Home</a>
+        </li>
+        <li class="dropdown-parent">
+          <a href="#features">Discover <i class="bx bx-chevron-down"></i></a>
+          <div class="dropdown">
+            <div class="dropdown-right">
+              <a
+                href=""
+                class="dropdown-item"
+                onclick="window.location.href='/homework'"
+                ><i class="bx bx-cloud"></i> Homework Cloud Saving</a
+              >
+              <a
+                href="#"
+                class="dropdown-item"
+                onclick="window.location.href='/textformat'"
+                ><i class="bx bx-text"></i> Text Formatting</a
+              >
+              <a
+                href="#"
+                class="dropdown-item"
+                onclick="window.location.href='/todo'"
+                ><i class="bx bx-list-check"></i> Todo Lists</a
+              >
+              <a
+                href="#"
+                class="dropdown-item"
+                onclick="window.location.href='/library'"
+                ><i class="bx bx-book"></i> Library</a
+              >
+              <a href="#" class="dropdown-item" onclick="showOthers()"
+                ><i class="bx bx-music"></i> Study Music</a
+              >
+              <a href="#" class="dropdown-item" onclick="showOther1s()"
+                ><i class="bx bx-notepad"></i> Quizzes</a
+              >
+            </div>
+            <div class="dropdown-left" id="others">
+              <a href="#" onclick="playMusic1()"
+                ><i class="bx bx-music"></i> Study Music #1</a
+              >
+              <a href="#" onclick="playMusic2()"
+                ><i class="bx bx-music"></i> Study Music #2</a
+              >
+              <a href="#" onclick="playMusic3()"
+                ><i class="bx bx-music"></i> Study Music #3</a
+              >
+              <a href="#" onclick="playMusic4()"
+                ><i class="bx bx-music"></i> Study Music #4</a
+              >
+            </div>
+            <div class="dropdown-left" id="other1">
+              <a href="#" onclick="window.location.href='/math_reviews'"
+                ><i class="bx bx-code-alt"></i> Math Quizzes</a
+              >
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="about"><i class="bx bxs-info-circle"></i> About</a>
+        </li>
+        <li>
+          <a href="#" onclick="showProjects()"><i class="bx bxs-briefcase"></i> Projects</a>
+        </li>
+      </ul>
+      <div class="logo">EduGuard</div>
+      <div class="hamburger"><i class="bx bx-menu"></i></div>
     </nav>
 
     <section id="home">
-        <div class="container">
-            <h1 id="typing"></h1>
-            <p>Homework Cloud Saving, Text Formatting, Notes Generator, Todo Lists, and <strong>MORE</strong>.</p>
+      <div class="container">
+        <h1 id="typing"></h1>
+        <p>
+          Homework Cloud Saving, Text Formatting, Notes Generator, Todo Lists,
+          and <strong>MORE</strong>.
+        </p>
+      </div>
+    </section>
+
+    <section id="project_lighter">
+      <main>
+        <section id="projects-section">
+          <h2>My Projects</h2>
+
+          <div id="projects">
+            <p>No projects found.</p>
+          </div>
+        </section>
+      </main>
+
+      <div id="popup" class="popup">
+        <div class="popup-content">
+          <div class="top">
+            <h2>Create a New Project</h2>
+            <span class="close">&times;</span>
+          </div>
+          <form id="project-form">
+            <label for="project-type">Project Type:</label>
+            <select id="project-type">
+              <option value="Notes">Notes</option>
+              <option value="Drawings">Drawings</option>
+            </select>
+            <label for="project-title">Project Title:</label>
+            <input type="text" id="project-title" required />
+            <label for="project-description">Project Description:</label>
+            <textarea id="project-description" required></textarea>
+            <button type="submit" class="button-6">Create Project</button>
+          </form>
         </div>
+      </div>
     </section>
 
     <section id="notes-popup">
-        <div class="container">
-            <main>
-                <div class="top">
-                    <p>Your Notes:</p>
-                    <i class='bx bx-x' onclick="closeNotesPopup()"></i>
-                </div>
-                <div class="middle">
-                    <div id="p-notes"></div>
-                    <textarea name="" id="notes-textarea" maxlength="500"></textarea>
-                </div>
-                <div class="bottom">
-                    <button id="save-notes-btn">Save</button>
-                    <button id="save-notes-btn" onclick="createNotes()">New</button>
-                </div>
-            </main>
-        </div>
+      <div class="container">
+        <main>
+          <div class="top">
+            <p>Your Notes:</p>
+            <i class="bx bx-x" onclick="closeNotesPopup()"></i>
+          </div>
+          <div class="middle">
+            <div id="p-notes"></div>
+            <textarea name="" id="notes-textarea" maxlength="500"></textarea>
+          </div>
+          <div class="bottom">
+            <button id="save-notes-btn">Save</button>
+            <button id="save-notes-btn" onclick="createNotes()">New</button>
+          </div>
+        </main>
+      </div>
     </section>
 
     <footer>
-        <a href="https://docs.google.com/document/d/1uZ7yv50BopzqsAp9PlaevBNgh2rC5dq_4Ez-gcjOamE/edit?usp=sharing"><i class='bx bxl-google'></i></a>
+      <a
+        href="https://docs.google.com/document/d/1uZ7yv50BopzqsAp9PlaevBNgh2rC5dq_4Ez-gcjOamE/edit?usp=sharing"
+        ><i class="bx bxl-google"></i
+      ></a>
     </footer>
-</body>
+  </body>
 </html>

@@ -192,24 +192,24 @@ document.addEventListener('keydown', function(event) {
 });
 
 // If shift + l is pressed
-document.addEventListener('keydown', function(event) {
-    if (event.shiftKey && event.key === 'L') {
-        event.preventDefault();
-        localStorage.setItem('darkMode', 'false');
-        window.location.reload();
-    }
-});
+// document.addEventListener('keydown', function(event) {
+//     if (event.shiftKey && event.key === 'L') {
+//         event.preventDefault();
+//         localStorage.setItem('darkMode', 'false');
+//         window.location.reload();
+//     }
+// });
 
-document.addEventListener('DOMContentLoaded', function () { 
-    let theme = localStorage.getItem('darkMode');
+// document.addEventListener('DOMContentLoaded', function () { 
+//     let theme = localStorage.getItem('darkMode');
 
-    if (theme === 'true') { 
-        if (window.location.pathname === '/' || window.location.pathname === '/home') {
-            document.body.classList.add('dark');
-        } else if (window.location.pathname === '/homework') { 
-            document.body.classList.add('dark');
-        } else {
-            document.body.classList.add('dark');
-        }
-    }
-})
+//     if (theme === 'true') { 
+//         if (window.location.pathname === '/' || window.location.pathname === '/home') {
+//             document.body.classList.add('dark');
+//         } else if (window.location.pathname === '/homework') { 
+//             document.body.classList.add('dark');
+//         } else {
+//             document.body.classList.add('dark');
+//         }
+//     }
+// })
