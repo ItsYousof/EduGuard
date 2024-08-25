@@ -38,6 +38,10 @@ app.get('/library', (req, res) => {
     res.sendFile(path.join(__dirname, filePath, '/apps/library.html'));
 });
 
+app.get('/projects', (req, res) => {
+    res.sendFile(paht.join(__dirname, filePath, '/project_lighter/index.html'))
+})
+
 app.get('/homework', (req, res) => {
     res.sendFile(path.join(__dirname, filePath, '/apps/homework.html'));
 });
